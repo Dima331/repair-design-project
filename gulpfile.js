@@ -91,7 +91,7 @@ gulp.task('sass', () => {
           }))*/
         .pipe(gcmq())
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            browsers: ['last 1 version'],
             cascade: true
         }))
         .pipe(cleanCSS({ compatibility: 'ie8' }))
