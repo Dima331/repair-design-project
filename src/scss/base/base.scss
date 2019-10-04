@@ -131,3 +131,16 @@ p {
   font-size: 18px;
   color: #04081c;
 }
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+body{
+  background-color: #ffffff;
+  background-image: url("../img/bg/lines.svg");
+}
