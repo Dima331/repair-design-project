@@ -17,31 +17,9 @@ html(lang='en')
         //- section.projects!!! нужны гриды
           .project__container.container
             h2.project__title Completed projects
-
-      //-   section.control-camera
-      //-     .control-camera__container.container
-      //-       h2.control-camera__title.section-title online control
-      //-       video(src="#").control-camera__video.video
-      //-         .video__control
-      //-           .video__play
-      //-       p.control-camera__text.line-text At each facility, a camera is installed that broadcasts the progress 
-      //-       | of work on the clock. At any time, you can go to our website and 
-      //-       | monitor the progress of work in your apartment. You can watch 
-      //-       | the live broadcast from one of our facilities! Leave a request 
-      //-       | below and you will receive a link to the broadcast.
-      //-       form.control-camera__form.form-control.form
-      //-         .form__col 
-      //-           .form-control__input.input
-      //-             label(for="#").input__label
-      //-             input(type="text").input__text
-      //-           .form-control__input.input
-      //-             label(for="#").input__label
-      //-             input(type="text").input__text
-      //-           button(type="submit").form-control__input.btn submit
-      //-         .form__col
-      //-           .form-control__input.checkbox
-      //-             label.checkbox__label I agree to the processing of personal data
-      //-             input(type="checkbox", name="agree").checkbox__input
+              //- переписать через iframe
+        include sections/control-camera.pug
+        
       //-   section.types-repair
       //-       h2.types-repair__title.section-title types of repair
       //-       .types-repair__types

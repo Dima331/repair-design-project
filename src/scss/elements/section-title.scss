@@ -1,0 +1,21 @@
+.section-title {
+    font-family: "yesevaone";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    margin-bottom: 70px;
+    &_camera::after {
+        content: "";
+        position: absolute;
+        width: 114px;
+        height: 30px;
+        background-image: url("../img/icons/camer.svg");
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -40px;
+    }
+}

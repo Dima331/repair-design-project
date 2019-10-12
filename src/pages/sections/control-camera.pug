@@ -1,0 +1,26 @@
+section.control-camera
+    .control-camera__container.container
+        h3.control-camera__title.section-title.section-title_camera online control
+        .video
+            video(src="#" poster="img/bg/video.jpg" ).control-camera__video
+            .video__control
+                .video__play
+        p.control-camera__text.line-text At each facility, a camera is installed that broadcasts the progress 
+            | of work on the clock. At any time, you can go to our website and 
+            | monitor the progress of work in your apartment. You can watch 
+            | the live broadcast from one of our facilities! Leave a request 
+            | below and you will receive a link to the broadcast.
+        form(action="#").control-camera__form.form-control.form
+            .form__col 
+                .form-control__input.input
+                    label(for="#").input__label Name
+                    input(type="text" placeholder="What is your name:").input__text
+                .form-control__input.input
+                    label(for="#").input__label Phone
+                    input(type="text" placeholder="Your phone number:").input__text
+                button(type="submit").form-control__btn.btn submit
+            .form__col
+                .checkbox
+                    label(for="agree").checkbox__label 
+                        input(type="checkbox", name="agree" id="agree").checkbox__input
+                        span.checkbox__text I agree to the processing of personal data
