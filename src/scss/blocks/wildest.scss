@@ -1,0 +1,32 @@
+.wildest {
+    background-image: url("../img/bg/bg_can.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0 100px;
+    .wildest__container {
+        width: 1240px;
+        position: relative;
+    }
+    .wildest__title {
+        font-size: 27px;
+        line-height: 37px;
+        color: #E3B873;
+        text-align: left;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    .wildest__choice-pic {
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 750px;
+        height: 1020px;
+        top: 41%;
+        transform: translateY(-50%);
+    }
+}
+
+// .main {
+//     padding: 300px 0;
+// }

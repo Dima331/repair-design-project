@@ -1,0 +1,17 @@
+.furniture-style {
+    .furniture-style__item {
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 34px;
+        font-family: "ProximaNova";
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .active {
+        color: #E3B873;
+        //text-decoration: underline;
+        border-bottom: 1px solid #E3B873;
+    }
+}

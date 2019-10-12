@@ -1,0 +1,19 @@
+.furniture-pic {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.furniture-pic__item {
+    margin-bottom: 40px;
+    display: flex;
+    &:first-child {
+        margin-top: 72px;
+    }
+    &:nth-child(2n) {
+        margin-bottom: 0;
+    }
+}
