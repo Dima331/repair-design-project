@@ -20,3 +20,16 @@
         }
     }
 }
+
+.input_contacts {
+    .input__label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input__text {
+        color: #FFFFFF;
+        background-color: #181818;
+        &::placeholder {
+            color: #FFFFFF;
+        }
+    }
+}

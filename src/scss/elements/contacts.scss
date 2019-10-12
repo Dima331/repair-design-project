@@ -1,0 +1,26 @@
+.contacts {
+    background: #181818;
+    width: 883px;
+    margin: 0 auto;
+    padding: 30px 180px;
+}
+
+.contacts__title.section-title {
+    color: #FFFFFF;
+}
+
+.contacts__form {
+    .form__col {
+        margin-bottom: 50px;
+    }
+    .form-contacts__btn {
+        padding: 15px 88px;
+    }
+    .form-control__input {
+        flex: 1;
+        margin-right: 55px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
