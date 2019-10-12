@@ -30,4 +30,15 @@
         transform: translateX(-50%);
         bottom: -40px;
     }
+    &_design-project::after {
+        content: "";
+        position: absolute;
+        width: 114px;
+        height: 30px;
+        background-image: url("../img/icons/pens.svg");
+        background-repeat: no-repeat;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -40px;
+    }
 }
