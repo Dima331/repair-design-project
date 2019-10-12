@@ -14,6 +14,18 @@
         width: 114px;
         height: 30px;
         background-image: url("../img/icons/camer.svg");
+        background-repeat: no-repeat;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -40px;
+    }
+    &_types-repair::after {
+        content: "";
+        position: absolute;
+        width: 114px;
+        height: 30px;
+        background-image: url("../img/icons/tools.svg");
+        background-repeat: no-repeat;
         left: 50%;
         transform: translateX(-50%);
         bottom: -40px;

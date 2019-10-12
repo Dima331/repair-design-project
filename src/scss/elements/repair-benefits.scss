@@ -1,0 +1,49 @@
+.repair-benefits {
+    padding: 35px;
+    background-color: #fff;
+    width: 78%;
+    margin: 0 auto;
+    transform: translateY(-145px);
+    position: relative;
+    .repair-benefits__title {
+        color: #363636;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: "yesevaone";
+        margin-bottom: 10px;
+    }
+    .benefits-list__item {
+        font-family: "futurabookc";
+        font-size: 15px;
+        line-height: 25px;
+        color: #959595;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        position: relative;
+        &::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: #959595;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 2px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .repair-benefits__btn {
+        background: #E3B873;
+        box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+        font-size: 18px;
+        padding: 17px 21px;
+        font-family: "yesevaone";
+        position: absolute;
+        position: absolute;
+        left: 0;
+        bottom: -42px;
+    }
+}
