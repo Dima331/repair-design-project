@@ -1,0 +1,18 @@
+.nav-list {
+    display: flex;
+    .nav-list__item {}
+    .nav-list__btn {
+        font-family: "futurabookc";
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding: 10px;
+        &:hover {
+            color: #E3B873;
+        }
+    }
+    .active {
+        color: #E3B873;
+    }
+}
