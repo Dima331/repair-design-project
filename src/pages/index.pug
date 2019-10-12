@@ -19,108 +19,30 @@ html(lang='en')
             h2.project__title Completed projects
               //- переписать через iframe
         //-include sections/control-camera.pug
-        include sections/types-repair.pug        
+        //-include sections/types-repair.pug        
         //-include sections/wildest.pug           
-        include sections/design-project.pug          
-      //-   section.design-project
-      //-     h2.design-project__title.section-title design project
-      //-     p.design-project__dec Design project not only helps to make the repair 
-      //-     | of your apartment more modern, but also significantly reduces the 
-      //-     | cost of materials and reduces the time of repair work.
-      //-     .container
-      //-       ul.repair-list
-      //-         li.repair-list__item.repair
-      //-           img(src="#", alt="!!!!!!!!!!!").repair__img
-      //-           .repair-benefits
-      //-             h4.repair-benefits__title Redecorating
-      //-             ul.benefits-list
-      //-               li.benefits-list__item Dismantling of old coatings 
-      //-               li.benefits-list__item Wallpapering
-      //-               li.benefits-list__item Painting walls and ceilings
-      //-               li.benefits-list__item Laying flooring
-      //-               li.benefits-list__item Replacing plumbing
-      //-               li.benefits-list__item Replacing sockets and switches
-      //-               li.benefits-list__item Replacing doors
-      //-             button(type="button").repair-benefits__btn from 900 rub / m2
-      //-         li.repair-list__item.repair
-      //-           img(src="#", alt="!!!!!!!!!!!").repair__img
-      //-           .repair-benefits
-      //-             h4.repair-benefits__title Overhaul
-      //-             ul.benefits-list
-      //-               li.benefits-list__item Dismantling of old coatings 
-      //-               li.benefits-list__item Wallpapering
-      //-               li.benefits-list__item Painting walls and ceilings
-      //-               li.benefits-list__item Laying flooring
-      //-               li.benefits-list__item Replacing plumbing
-      //-               li.benefits-list__item Replacing sockets and switches
-      //-               li.benefits-list__item Replacing doors
-      //-             button(type="button").repair-benefits__btn from 1800 rub / m2
-      //-         li.repair-list__item.repair
-      //-           img(src="#", alt="!!!!!!!!!!!").repair__img
-      //-           .repair-benefits
-      //-             h4.repair-benefits__title Designer Repair
-      //-             ul.benefits-list
-      //-               li.benefits-list__item Dismantling of old coatings 
-      //-               li.benefits-list__item Wallpapering
-      //-               li.benefits-list__item Painting walls and ceilings
-      //-               li.benefits-list__item Laying flooring
-      //-               li.benefits-list__item Replacing plumbing
-      //-               li.benefits-list__item Replacing sockets and switches
-      //-               li.benefits-list__item Replacing doors
-      //-             button(type="button").repair-benefits__btn from 4000 rub / m2
-      //-   section.our-team
-      //-     h2.our-team__title.section-title  our team
-      //-     p.our-team__dec Our has helped to become happier for more than 
-      //-     | 500 families and we are not going to stop
-      //-     ul.team-list
-      //-       li.team-list__item.one-worker
-      //-         .one-worker__icon
-      //-         .one-worker__pic
-      //-           img(src="", alt="worker").one-worker__img
-      //-         .one-worker__info
-      //-           .one-worker__name Dmitry tulyakov
-      //-           .one-worker__position Project manager
-      //-           .one-worker__experience Work experience 8 years
-      //-       li.team-list__item
-      //-         .one-worker__icon
-      //-         .one-worker__pic
-      //-           img(src="", alt="worker").one-worker__img
-      //-         .one-worker__info
-      //-           .one-worker__name Larisa Kotlyarova
-      //-           .one-worker__position Designer
-      //-           .one-worker__experience Work experience 6 years
-      //-       li.team-list__item
-      //-         .one-worker__icon
-      //-         .one-worker__pic
-      //-           img(src="", alt="worker").one-worker__img
-      //-         .one-worker__info
-      //-           .one-worker__name Alexey Efimov
-      //-           .one-worker__position Foreman
-      //-           .one-worker__experience Work experience 12 years
-      //-     p.our-team__text Each employee of our company is a qualified 
-      //-     | full-time specialist with work experience of 6 years. We do not 
-      //-     | have laborers and guest workers, each employee carries out work 
-      //-     | corresponding to his specialty.
-      //-   section.our-clients
-      //-     h2.our-clients__title.section-title  our clients
-      //-     p.our-clients__dec 80% of our customers recommend 
-      //-     | us to their friends and family.
-      //-     ul.clients-list
-      //-       .clients-list__item.client
-      //-         .client__info
-      //-           .client__pic
-      //-             img(src="", alt="client").client__img
-      //-           .client__name Fedosova Maria Konstantinovna
-      //-         .client__review I want to thank the guys for their work. 
-      //-         |We put your shower part in repair. I am VERY grateful that 
-      //-         |I referred to the repair as to my own. Great thanks i express 
-      //-         |the project to georgia for its professionalism and approach. 
-      //-         |The repair process was turned out in terms, faster than anticipated. 
-      //-         |Team mobile and professional. Works performed qualitatively without comments. 
-      //-         |Quality satisfied. Prices democratic. I recommend these masters.
-      //-         .client__plan
-      //-           .client__meter 40 m2
-      //-           .client__days 48 days
+        //-include sections/design-project.pug          
+        include sections/our-team.pug
+            //- section.our-clients
+            //-   h2.our-clients__title.section-title  our clients
+            //-   p.our-clients__dec 80% of our customers recommend 
+            //-   | us to their friends and family.
+            //-   ul.clients-list
+            //-   .clients-list__item.client
+            //-       .client__info
+            //-       .client__pic
+            //-           img(src="", alt="client").client__img
+            //-       .client__name Fedosova Maria Konstantinovna
+            //-       .client__review I want to thank the guys for their work. 
+            //-       |We put your shower part in repair. I am VERY grateful that 
+            //-       |I referred to the repair as to my own. Great thanks i express 
+            //-       |the project to georgia for its professionalism and approach. 
+            //-       |The repair process was turned out in terms, faster than anticipated. 
+            //-       |Team mobile and professional. Works performed qualitatively without comments. 
+            //-       |Quality satisfied. Prices democratic. I recommend these masters.
+            //-       .client__plan
+            //-       .client__meter 40 m2
+            //-       .client__days 48 days
       //-   section.contacts
       //-     .contacts__container.container
       //-       .contacts__form

@@ -1,0 +1,6 @@
+.team-list {
+    @extend .repair-list;
+    .team-list__item {
+        @extend .repair-list__item
+    }
+}

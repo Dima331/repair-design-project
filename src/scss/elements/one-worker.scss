@@ -1,0 +1,41 @@
+.one-worker__img {
+    width: 100%;
+}
+
+.one-worker__info {
+    background-color: #fff;
+    width: 78%;
+    margin: 0 auto;
+    transform: translateY(-145px);
+    position: relative;
+    padding-top: 35px;
+    .one-worker__name {
+        color: #363636;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: "yesevaone";
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .one-worker__position {
+        color: #959595;
+        text-align: center;
+        font-size: 18px;
+        font-family: "futurabookc";
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .one-worker__experience {
+        width: 100%;
+    }
+    .one-worker__experience {
+        padding: 10px 0;
+        background-color: #E3B873;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "yesevaone";
+        color: #FFFFFF;
+    }
+}
