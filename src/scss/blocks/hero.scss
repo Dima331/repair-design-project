@@ -1,0 +1,35 @@
+.hero {
+    background-image: url("../img/bg/bg-main.jpg");
+    position: relative;
+    padding: 150px 0;
+    padding-left: 130px;
+    background-position-x: 77px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .hero__title {
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: "yesevaone";
+        margin-bottom: 20px;
+    }
+    .hero__title_color {
+        color: #E3B873;
+    }
+    .hero__text {
+        font-family: FuturaBookC;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFFFFF;
+        font-family: "futurabookc";
+        margin-bottom: 20px;
+        padding-right: 50px;
+    }
+    .hero__content {
+        width: 515px;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
