@@ -46,34 +46,35 @@ html(lang='en')
             .hero__btns.sentence-btn 
               .sentence-btn__calcul.btn-oppacity calculate the cost
               .sentence-btn__applic.btn submit your application
-        section.projects!!! нужны гриды
+        //- section.projects!!! нужны гриды
           .project__container.container
             h2.project__title Completed projects
 
         section.control-camera
-          video(src="#").control-camera__video.video
-            .video__control
-              .video__play
-          p.control-camera__text At each facility, a camera is installed that broadcasts the progress 
-          | of work on the clock. At any time, you can go to our website and 
-          | monitor the progress of work in your apartment. You can watch 
-          | the live broadcast from one of our facilities! Leave a request 
-          | below and you will receive a link to the broadcast.
-          form.control-camera__form.form-control.form
-            .form__col 
-              .form-control__input.input
-                label(for="#").input__label
-                input(type="text").input__text
-              .form-control__input.input
-                label(for="#").input__label
-                input(type="text").input__text
-              button(type="submit").form-control__input.btn
-            .form__col
-              .form-control__input.checkbox
-                label.checkbox__label
-                input(type="radio", name="agree").checkbox__input I agree to the processing of personal data
+          .control-camera__container.container
+            h2.control-camera__title.section-title online control
+            video(src="#").control-camera__video.video
+              .video__control
+                .video__play
+            p.control-camera__text.line-text At each facility, a camera is installed that broadcasts the progress 
+            | of work on the clock. At any time, you can go to our website and 
+            | monitor the progress of work in your apartment. You can watch 
+            | the live broadcast from one of our facilities! Leave a request 
+            | below and you will receive a link to the broadcast.
+            form.control-camera__form.form-control.form
+              .form__col 
+                .form-control__input.input
+                  label(for="#").input__label
+                  input(type="text").input__text
+                .form-control__input.input
+                  label(for="#").input__label
+                  input(type="text").input__text
+                button(type="submit").form-control__input.btn submit
+              .form__col
+                .form-control__input.checkbox
+                  label.checkbox__label I agree to the processing of personal data
+                  input(type="checkbox", name="agree").checkbox__input
         section.types-repair
-          .container
             h2.types-repair__title.section-title types of repair
             .types-repair__types
               .container
@@ -117,11 +118,149 @@ html(lang='en')
                         li.benefits-list__item Replacing sockets and switches
                         li.benefits-list__item Replacing doors
                       button(type="button").repair-benefits__btn from 4000 rub / m2
-
-          
-        
-        
-
+        section.wildest
+          .wildest__choice-style
+            h2.wildest__title.section-title We realize your wildest fantasies
+            ul.furniture-style
+              li.furniture-style__item
+                button(type="button").furniture-style__link American classic
+              li.furniture-style__item
+                button(type="button").furniture-style__link Empire
+              li.furniture-style__item
+                button(type="button").furniture-style__link Classical
+              li.furniture-style__item
+                button(type="button").furniture-style__link Minimalism
+              li.furniture-style__item
+                button(type="button").furniture-style__link Provence
+              li.furniture-style__item
+                button(type="button").furniture-style__link Romanticism
+              li.furniture-style__item
+                button(type="button").furniture-style__link Scandinavian style
+              li.furniture-style__item
+                button(type="button").furniture-style__link Mediterranean style
+              li.furniture-style__item
+                button(type="button").furniture-style__link High tech
+              li.furniture-style__item
+                button(type="button").furniture-style__link Eclecticism
+          .wildest__choice-pic
+            ul.furniture-pic
+              li.furniture-pic
+                img(src="", alt="#")
+              li.furniture-pic
+                img(src="", alt="#")
+              li.furniture-pic
+                img(src="", alt="#")
+              li.furniture-pic
+                img(src="", alt="#")
+        section.design-project
+          h2.design-project__title.section-title design project
+          p.design-project__dec Design project not only helps to make the repair 
+          | of your apartment more modern, but also significantly reduces the 
+          | cost of materials and reduces the time of repair work.
+          .container
+            ul.repair-list
+              li.repair-list__item.repair
+                img(src="#", alt="!!!!!!!!!!!").repair__img
+                .repair-benefits
+                  h4.repair-benefits__title Redecorating
+                  ul.benefits-list
+                    li.benefits-list__item Dismantling of old coatings 
+                    li.benefits-list__item Wallpapering
+                    li.benefits-list__item Painting walls and ceilings
+                    li.benefits-list__item Laying flooring
+                    li.benefits-list__item Replacing plumbing
+                    li.benefits-list__item Replacing sockets and switches
+                    li.benefits-list__item Replacing doors
+                  button(type="button").repair-benefits__btn from 900 rub / m2
+              li.repair-list__item.repair
+                img(src="#", alt="!!!!!!!!!!!").repair__img
+                .repair-benefits
+                  h4.repair-benefits__title Overhaul
+                  ul.benefits-list
+                    li.benefits-list__item Dismantling of old coatings 
+                    li.benefits-list__item Wallpapering
+                    li.benefits-list__item Painting walls and ceilings
+                    li.benefits-list__item Laying flooring
+                    li.benefits-list__item Replacing plumbing
+                    li.benefits-list__item Replacing sockets and switches
+                    li.benefits-list__item Replacing doors
+                  button(type="button").repair-benefits__btn from 1800 rub / m2
+              li.repair-list__item.repair
+                img(src="#", alt="!!!!!!!!!!!").repair__img
+                .repair-benefits
+                  h4.repair-benefits__title Designer Repair
+                  ul.benefits-list
+                    li.benefits-list__item Dismantling of old coatings 
+                    li.benefits-list__item Wallpapering
+                    li.benefits-list__item Painting walls and ceilings
+                    li.benefits-list__item Laying flooring
+                    li.benefits-list__item Replacing plumbing
+                    li.benefits-list__item Replacing sockets and switches
+                    li.benefits-list__item Replacing doors
+                  button(type="button").repair-benefits__btn from 4000 rub / m2
+        section.our-team
+          h2.our-team__title.section-title  our team
+          p.our-team__dec Our has helped to become happier for more than 
+          | 500 families and we are not going to stop
+          ul.team-list
+            li.team-list__item.one-worker
+              .one-worker__icon
+              .one-worker__pic
+                img(src="", alt="worker").one-worker__img
+              .one-worker__info
+                .one-worker__name Dmitry tulyakov
+                .one-worker__position Project manager
+                .one-worker__experience Work experience 8 years
+            li.team-list__item
+              .one-worker__icon
+              .one-worker__pic
+                img(src="", alt="worker").one-worker__img
+              .one-worker__info
+                .one-worker__name Larisa Kotlyarova
+                .one-worker__position Designer
+                .one-worker__experience Work experience 6 years
+            li.team-list__item
+              .one-worker__icon
+              .one-worker__pic
+                img(src="", alt="worker").one-worker__img
+              .one-worker__info
+                .one-worker__name Alexey Efimov
+                .one-worker__position Foreman
+                .one-worker__experience Work experience 12 years
+          p.our-team__text Each employee of our company is a qualified 
+          | full-time specialist with work experience of 6 years. We do not 
+          | have laborers and guest workers, each employee carries out work 
+          | corresponding to his specialty.
+        section.our-clients
+          h2.our-clients__title.section-title  our clients
+          p.our-clients__dec 80% of our customers recommend 
+          | us to their friends and family.
+          ul.clients-list
+            .clients-list__item.client
+              .client__info
+                .client__pic
+                  img(src="", alt="client").client__img
+                .client__name Fedosova Maria Konstantinovna
+              .client__review I want to thank the guys for their work. 
+              |We put your shower part in repair. I am VERY grateful that 
+              |I referred to the repair as to my own. Great thanks i express 
+              |the project to georgia for its professionalism and approach. 
+              |The repair process was turned out in terms, faster than anticipated. 
+              |Team mobile and professional. Works performed qualitatively without comments. 
+              |Quality satisfied. Prices democratic. I recommend these masters.
+              .client__plan
+                .client__meter 40 m2
+                .client__days 48 days
+        section.contacts
+          .contacts__container.container
+            .contacts__form
+              h2.contacts__title.section-title have any questions?
+            .contacts__adress Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29
+            .contacts__social
+              ul.social
+                li.social__item 
+                li.social__item
+            .contacts__map
 
 
 
@@ -131,6 +270,28 @@ html(lang='en')
 
 
       footer.footer
+        .footer__container.container
+          .logo
+            h1.logo__title
+              a(href="#").logo__link IC "Repair Design Project"
+          nav.nav
+            ul.nav-list
+              li.nav-list__item
+                button(type="button").nav-list__btn home
+              li.nav-list__item
+                button(type="button").nav-list__btn projects
+              li.nav-list__item
+                button(type="button").nav-list__btn measurement
+              li.nav-list__item
+                button(type="button").nav-list__btn team
+              li.nav-list__item
+                button(type="button").nav-list__btn reviews
+              li.nav-list__item
+                button(type="button").nav-list__btn contacts
+          .phone
+            a(href="tel:+79287683239").phone__link +7 (928) 768-32-39
+          .request
+            .request__btn.btn request a call
     script(type="text/javascript" src="js/main.min.js")
 
 
