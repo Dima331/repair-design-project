@@ -33,3 +33,16 @@
         }
     }
 }
+
+.input_request {
+    .input__label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .input__text {
+        color: #FFFFFF;
+        background: #131313;
+        &::placeholder {
+            color: #FFFFFF;
+        }
+    }
+}

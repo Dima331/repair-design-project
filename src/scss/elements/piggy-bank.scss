@@ -1,0 +1,32 @@
+.piggy-bank {
+    padding: 0 90px;
+    .piggy-bank__text {
+        font-family: "futurademic";
+        font-size: 20px;
+        line-height: 25px;
+        color: #E3B873;
+        text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+        padding-left: 60px;
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 72px;
+            height: 72px;
+            top: 50%;
+            left: 0;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            background-color: #E3B873;
+            background-image: url("../img/icons/piggy bank.svg");
+            background-repeat: no-repeat;
+            background-position: 56%;
+            background-size: 60%;
+            transition: 0.3s;
+        }
+    }
+}
+
+.piggy-bank_margin {
+    margin-top: 50px;
+}

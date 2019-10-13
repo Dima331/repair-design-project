@@ -1,0 +1,42 @@
+section.request
+   
+        .request__container.container
+            .request__menu
+                ol.advantages
+                    li.advantages__item
+                        p.advantages__text
+                            | Our specialist will arrive for measurements per 
+                            | day contact, or appoint a date convenient for you
+                    li.advantages__item
+                         p.advantages__text
+                            | Free metering
+                    li.advantages__item
+                         p.advantages__text
+                            | Free consultation
+                    li.advantages__item
+                         p.advantages__text
+                            | Get a cost estimate and the timing of your future repairs
+            .request__form
+                .form(action="#").request-form
+                    .request-form__title Leave a request for free departure of the measurer
+                    .form__col 
+                        .request-form__input.input.input_request
+                            label(for="#").input__label Name
+                            input(type="text" placeholder="What is your name:").input__text
+                    .form__col
+                        .request-form__input.input.input.input_request
+                            label(for="#").input__label Phone
+                            input(type="text" placeholder="Your phone number:").input__text
+                    .form__col 
+                        .request-form__input.input.input_request
+                            label(for="#").input__label Question
+                            input(type="text" placeholder="I want to know:").input__text
+                    .form__col
+                        .checkbox.checkbox_request
+                            label(for="agree").checkbox__label 
+                                input(type="checkbox", name="agree" id="agree").checkbox__input
+                                span.checkbox__text I agree to the processing of personal data
+                    .form__col
+                        button(type="submit").form-request__btn.btn Call the measurer
+                .piggy-bank.piggy-bank_margin
+                    .piggy-bank__text Help save 10 - 20% of the cost of materials
