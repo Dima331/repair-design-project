@@ -1,0 +1,31 @@
+.about-design {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .about-design__title {
+        font-family: "yesevaone";
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #E3B873;
+        //margin-bottom: 15px;
+    }
+    .about-design__info {
+        font-family: "futurademic";
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding-right: 83px;
+    }
+    .about-design__line {
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .about-design__line:nth-child(2n) {
+        margin-bottom: 30px;
+    }
+    .about-design__title,
+    .about-design__info {
+        width: 50%;
+    }
+}

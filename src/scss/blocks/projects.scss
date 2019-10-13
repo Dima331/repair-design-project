@@ -1,0 +1,52 @@
+.projects {
+    background: #131313;
+    padding: 150px 0 400px;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.projects__info {
+    width: 415px;
+    margin-right: 75px;
+    padding-top: 60px;
+    min-height: 545px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__title {
+    font-family: "yesevaone";
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 40px;
+    padding-right: 150px;
+}
+
+.projects__text {
+    font-size: 18px;
+    line-height: 29px;
+    font-family: "futurabookc";
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.projects__name-design {
+    margin-bottom: 40px;
+}
+
+.projects-slide__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.projects__nav-slider {
+    margin-top: auto;
+}

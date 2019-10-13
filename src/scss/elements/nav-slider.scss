@@ -1,0 +1,18 @@
+.nav-slider {
+    display: flex;
+    .nav-slider__prev {
+        background-image: url("../img/icons/big arrow.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60px;
+        height: 20px;
+        transform: rotate(180deg)
+    }
+    .nav-slider__next {
+        background-image: url("../img/icons/big arrow.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60px;
+        height: 20px;
+    }
+}

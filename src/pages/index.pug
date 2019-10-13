@@ -11,12 +11,11 @@ html(lang='en')
       //-include elements/header.pug
       main.main
         //-include sections/hero.pug
+        include sections/projects.pug
         
         
         
-        //-section.projects!!! нужны гриды
-          .project__container.container
-            h2.project__title Completed projects
+
               //- переписать через iframe
         //-include sections/control-camera.pug
         //-include sections/types-repair.pug        
@@ -24,7 +23,7 @@ html(lang='en')
         //-include sections/design-project.pug          
         //-include sections/our-team.pug
         //-include sections/our-clients.pug    
-        include sections/contacts.pug  
+        //-include sections/contacts.pug  
 
       //- footer.footer
         .footer__container.container

@@ -1,0 +1,22 @@
+.name-design {
+    display: flex;
+    .name-design__item {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .name-design__btn {
+        font-family: "yesevaone";
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    .active {
+        .name-design__btn {
+            color: #E3B873;
+            border-bottom: 1px solid #E3B873;
+        }
+    }
+}

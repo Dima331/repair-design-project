@@ -1,0 +1,18 @@
+.dote-slider {
+    display: flex;
+    .dote-slider__item {
+        margin: 0 10px;
+    }
+    .active {
+        .dote-slider__btn {
+            background-color: #fff;
+        }
+    }
+    .dote-slider__btn {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 30px;
+    }
+}
