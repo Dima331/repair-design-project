@@ -1,0 +1,27 @@
+.how-working {
+    background: #131313;
+    padding: 150px 0 400px;
+}
+
+.how-working__title {
+    font-family: "futurademic";
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.how-working__info {
+    width: 355px;
+    margin-right: 120px;
+}
+
+.how-working__content {
+    display: flex;
+    //flex-direction: row;
+}
+
+.how-working__nav-slider {
+    margin-top: 80px;
+}

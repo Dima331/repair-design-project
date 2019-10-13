@@ -1,0 +1,61 @@
+.step-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.step-list__item {
+    width: 33%;
+    //flex: 1 1 100px;
+}
+
+.one-step__title {
+    font-family: "yesevaone";
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    border-bottom: 1px solid #E3B873;
+    margin-bottom: 10px;
+}
+
+.one-step__info {
+    opacity: 0.5;
+    font-family: "futurabookc";
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.active {
+    .one-step__title,
+    .one-step__info {
+        opacity: 1;
+    }
+}
+
+.step-list__btn {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: left;
+}
+
+.step-list__item {
+    margin-bottom: 50px;
+}
+
+.step-list__item:nth-child(3n) {
+    .step-list__btn {
+        margin-left: auto;
+        width: 37%;
+    }
+}
+
+.step-list__item:nth-child(2),
+.step-list__item:nth-child(5) {
+    .step-list__btn {
+        margin: auto;
+    }
+}
