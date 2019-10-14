@@ -1,20 +1,31 @@
 .our-team__container {
     width: 1025px;
 }
-
+.our-team__container-text{
+    margin-top: 66px;
+}
+.our-team{
+    padding-top: 67px;
+}
 .our-team__dec {
     font-family: "futurabookc";
     font-size: 20px;
     line-height: 27px;
     text-align: center;
     color: #363636;
-    width: 38%;
+    width: 43%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 81px;
 }
 
 .our-team__text {
     text-align: center;
-    width: 61%;
+    width: 52%;
     margin: 0 auto;
+    margin-bottom: 9px;
+}
+.our-team__text.line-text{
+    &:before{
+        top: -11px;
+    }
 }

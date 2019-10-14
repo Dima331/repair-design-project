@@ -1,6 +1,7 @@
 .team-list {
     @extend .repair-list;
+    justify-content: space-between;
     .team-list__item {
-        @extend .repair-list__item
+       // margin-right: 30px;
     }
 }

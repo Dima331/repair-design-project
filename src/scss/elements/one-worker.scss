@@ -4,17 +4,17 @@
 
 .one-worker__info {
     background-color: #fff;
-    width: 78%;
+    width: 85%;
     margin: 0 auto;
-    transform: translateY(-145px);
+    margin-top: -80px;
     position: relative;
-    padding-top: 35px;
+    padding-top: 21px;
     .one-worker__name {
         color: #363636;
         font-size: 18px;
         line-height: 25px;
         font-family: "yesevaone";
-        margin-bottom: 10px;
+
         text-align: center;
     }
     .one-worker__position {
@@ -23,7 +23,7 @@
         font-size: 18px;
         font-family: "futurabookc";
         line-height: 26px;
-        margin-bottom: 20px;
+        margin-bottom: 23px;
     }
     .one-worker__experience {
         width: 100%;
