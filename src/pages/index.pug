@@ -8,23 +8,22 @@ html(lang='en')
     title Aviana
   body.body
     .wrapper
-      //-include elements/header.pug
+      include elements/header.pug
       main.main
-        //-include sections/hero.pug
-        //-include sections/projects.pug
-        //-include sections/how-working.pug
-        include sections/request.pug
+        include sections/hero.pug    
+        .container-wall
+          include sections/projects.pug
 
-        
-
-              //- переписать через iframe
-        //-include sections/control-camera.pug
-        //-include sections/types-repair.pug        
-        //-include sections/wildest.pug           
-        //-include sections/design-project.pug          
-        //-include sections/our-team.pug
-        //-include sections/our-clients.pug    
-        //-include sections/contacts.pug  
+          include sections/control-camera.pug        
+          include sections/types-repair.pug
+          include sections/request.pug
+        include sections/wildest.pug  
+        .container-side      
+          include sections/design-project.pug            
+          include sections/how-working.pug
+          include sections/our-team.pug
+          include sections/our-clients.pug    
+        //- include sections/contacts.pug  
 
       //- footer.footer
         .footer__container.container

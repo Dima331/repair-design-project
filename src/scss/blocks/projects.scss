@@ -1,6 +1,21 @@
 .projects {
-    background: #131313;
-    padding: 150px 0 400px;
+    z-index: 90;
+    // background: #131313;
+    // padding: 150px 0 400px;
+    // background-image: url("../img/icons/lines.svg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // position: relative;
+    // &:after {
+    //     background-image: url("../img/icons/city.svg");
+    //     width: 100%;
+    //     content: "";
+    //     position: absolute;
+    //     height: 776px;
+    //     left: 0;
+    //     z-index: 23;
+    //     bottom: 0;
+    // }
 }
 
 .projects__container {
