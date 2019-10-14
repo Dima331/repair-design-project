@@ -1,0 +1,30 @@
+.scroll-down{
+    font-family: "yesevaone";
+    background-color: #131313;
+    position: absolute;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    bottom: -50px;
+    left: 7px;
+    z-index: 30;
+    .scroll-down__btn{
+        text-transform: uppercase;
+        position: relative;
+        padding: 40px 98px 40px 40px;
+        &:after{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-image: url("../img/icons/arrow.svg");
+            top: 47%;
+            transform: translateY(-50%);
+            right: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 50%;
+            border: 1px solid #e3b873;
+        }
+    }
+}

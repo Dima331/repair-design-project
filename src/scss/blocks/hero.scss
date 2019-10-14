@@ -1,7 +1,7 @@
 .hero {
     background-image: url("../img/bg/bg-main.jpg");
     position: relative;
-    padding: 150px 0;
+    padding: 170px 0 186px;
     padding-left: 130px;
     background-position-x: 77px;
     background-repeat: no-repeat;
@@ -11,7 +11,11 @@
         text-transform: uppercase;
         color: #FFFFFF;
         font-family: "yesevaone";
-        margin-bottom: 20px;
+        margin-bottom: 16px;
+        line-height: 53px;
+    }
+    .hero__container{
+        width: 1283px;  
     }
     .hero__title_color {
         color: #E3B873;
@@ -22,7 +26,7 @@
         line-height: 30px;
         color: #FFFFFF;
         font-family: "futurabookc";
-        margin-bottom: 20px;
+        margin-bottom: 45px;
         padding-right: 50px;
     }
     .hero__content {
