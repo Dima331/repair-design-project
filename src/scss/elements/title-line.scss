@@ -12,3 +12,12 @@
         right: -127px;
     }
 }
+.how-working{
+    .title-line {
+        &::after {
+            top: 61%;
+            transform: translateY(-50%);
+            right: -166px;
+        }
+    }
+}

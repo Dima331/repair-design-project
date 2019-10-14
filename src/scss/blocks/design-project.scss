@@ -1,4 +1,8 @@
 .design-project {
+    padding-top: 155px;
+    .design-project__container{
+        width: 1240px;
+    }
     .design-project__dec {
         font-family: "futurabookc";
         font-size: 20px;
@@ -7,6 +11,12 @@
         color: #363636;
         width: 53%;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 46px;
+    }
+    .repair-benefits {
+        padding: 25px 35px 57px;
+    } 
+    .repair-benefits__btn{
+        bottom: -30px;
     }
 }

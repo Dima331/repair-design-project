@@ -1,6 +1,8 @@
 .how-working {
     //background: #131313;
     //padding: 150px 0 400px;
+    padding-top: 0;
+    transform: translateY(-162px);
 }
 
 .how-working__title {
@@ -11,17 +13,20 @@
     color: #FFFFFF;
     margin-bottom: 10px;
 }
-
+.how-working__container {
+    width: 1240px;
+}
 .how-working__info {
-    width: 355px;
-    margin-right: 120px;
+    width: 393px;
+    margin-right: 122px;
 }
 
 .how-working__content {
     display: flex;
+    
     //flex-direction: row;
 }
 
 .how-working__nav-slider {
-    margin-top: 80px;
+    margin-top: 96px;
 }

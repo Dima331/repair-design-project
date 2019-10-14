@@ -6,7 +6,8 @@
         background-size: contain;
         width: 45px;
         height: 20px;
-        transform: rotate(180deg)
+        transform: rotate(180deg);
+        background-position: center;
     }
     .nav-slider__next {
         background-image: url("../img/icons/big arrow.svg");
@@ -14,5 +15,6 @@
         background-size: contain;
         width: 45px;
         height: 20px;
+        background-position: center;
     }
 }
