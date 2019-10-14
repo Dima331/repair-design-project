@@ -1,5 +1,6 @@
 .request {
-    //padding: 200px 0;
+    padding-top: 131px;
+    padding-bottom: 251px;
     .request__form {
         width: 505px;
     }
@@ -13,6 +14,7 @@
         display: flex;
         flex-direction: row;
         position: relative;
+        width: 1240px;
         &:after {
             background-image: url("../img/bg/image 6.1.png");
             background-repeat: no-repeat;
@@ -20,7 +22,8 @@
             content: "";
             position: absolute;
             height: 645px;
-            left: -31%;
+            left: -31.5%;
+            bottom: 63px;
         }
         &:before {
             content: "";
@@ -31,8 +34,8 @@
             background-repeat: no-repeat;
             top: -184px;
             left: -223px;
-            top: 4%;
-            left: -14%;
+            top: -9%;
+            left: -16%;
         }
     }
     .request__menu {
