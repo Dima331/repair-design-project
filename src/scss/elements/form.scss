@@ -1,6 +1,6 @@
 .form__col {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 33px;
     justify-content: center;
     &:last-child {
         margin-bottom: 0;
@@ -11,5 +11,6 @@
     }
     .form-control__btn {
         width: 200px;
+        padding: 17px 32px;
     }
 }
