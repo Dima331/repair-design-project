@@ -1,10 +1,18 @@
 .header {
     background-color: #131313;
-    padding: 24px 0;
+    padding: 23px 0 22px;
     .header__container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        width: 1275px;
+        padding-right: 20px;
+    }
+    .header__nav{
+        padding-left: 33px;
+    }
+    .header__phone{
+        margin-left: 13px;
     }
 }

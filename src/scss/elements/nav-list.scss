@@ -1,6 +1,11 @@
 .nav-list {
     display: flex;
-    .nav-list__item {}
+    .nav-list__item {
+        margin-right: 28px;
+        &:last-child{
+            margin-right:0;
+        }
+    }
     .nav-list__btn {
         font-family: "futurabookc";
         font-size: 14px;
