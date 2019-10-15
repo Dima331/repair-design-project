@@ -8,6 +8,10 @@
         &:hover{
             color: #d68400;
         }
+        @include mlView{
+            font-size: 12px;
+            line-height: 14px;
+        }
     }
 
 }

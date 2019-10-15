@@ -1,9 +1,13 @@
 .nav-list {
     display: flex;
+
     .nav-list__item {
         margin-right: 28px;
         &:last-child{
             margin-right:0;
+        }
+        @include lView {
+            margin-right: 5px;
         }
     }
     .nav-list__btn {

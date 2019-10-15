@@ -1,6 +1,6 @@
 .header {
     background-color: #131313;
-    padding: 23px 0 22px;
+    padding: 22px 0 22px;
     .header__container {
         display: flex;
         flex-direction: row;
@@ -8,11 +8,33 @@
         align-items: center;
         width: 1275px;
         padding-right: 20px;
+        @include lView {
+            width: 95%; 
+            padding-right: 0;
+        }
+        @include mlView{
+            width: 90%;
+        }
+      
     }
     .header__nav{
         padding-left: 33px;
+        @include mlView{
+            display: none;
+        } 
+    }
+    .header__call{
+        @include smView{
+            display: none;
+        } 
     }
     .header__phone{
         margin-left: 13px;
+        @include lView {
+            margin-right: 13px;
+        }
+        @include mlView{
+            margin: 0;
+        }
     }
 }
