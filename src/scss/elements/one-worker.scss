@@ -1,7 +1,10 @@
 .one-worker__img {
     width: 100%;
 }
-
+.one-worker{
+    position: relative;
+    width: 270px;
+}
 .one-worker__info {
     background-color: #fff;
     width: 85%;
@@ -38,4 +41,27 @@
         font-family: "yesevaone";
         color: #FFFFFF;
     }
-}
+   
+} 
+.one-worker__icon{
+        background: #E3B873;
+        box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: -33px;
+        left: -37px;
+        //background-image: url("../img/icons/vectr.svg");
+        //background-image: url("../img/icons/portfolio.svg");      
+        background-repeat: no-repeat;
+        background-position: center;
+        &_idea{
+            background-image: url("../img/icons/idea.svg");
+        }
+        &_vectr{
+            background-image: url("../img/icons/vectr.svg");
+        }
+        &_portfolio{
+            background-image: url("../img/icons/portfolio.svg");
+        }
+    }

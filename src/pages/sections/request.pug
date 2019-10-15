@@ -1,5 +1,4 @@
 section.request
-   
         .request__container.container
             .request__menu
                 ol.advantages
@@ -17,24 +16,24 @@ section.request
                          p.advantages__text
                             | Get a cost estimate and the timing of your future repairs
             .request__form
-                .form(action="#").request-form
-                    .request-form__title Leave a request for free departure of the measurer
+                form.form(action="#").request-form
+                    h3.request-form__title Leave a request for free departure of the measurer
                     .form__col 
                         .request-form__input.input.input_request
-                            label(for="#").input__label Name
-                            input(type="text" placeholder="What is your name:").input__text
+                            label(for="req_name").input__label Name
+                            input(type="text" placeholder="What is your name:" name="req_name" id= "req_name").input__text
                     .form__col
                         .request-form__input.input.input.input_request
-                            label(for="#").input__label Phone
-                            input(type="text" placeholder="Your phone number:").input__text
+                            label(for="req_phone").input__label Phone
+                            input(type="text" placeholder="Your phone number:" name="req_phone"  id= "req_phone").input__text
                     .form__col 
                         .request-form__input.input.input_request
-                            label(for="#").input__label Email
-                            input(type="text" placeholder="Your email").input__text
+                            label(for="req_email").input__label Email
+                            input(type="text" placeholder="Your email" name="req_email" id= "req_email").input__text
                     .form__col
                         .checkbox.checkbox_request
-                            label(for="agree").checkbox__label 
-                                input(type="checkbox", name="agree" id="agree").checkbox__input
+                            label(for="req_agree").checkbox__label 
+                                input(type="checkbox", name="req_agree" id="req_agree").checkbox__input
                                 span.checkbox__text I agree to the processing of personal data
                     .form__col
                         button(type="submit").form-request__btn.btn Call the measurer

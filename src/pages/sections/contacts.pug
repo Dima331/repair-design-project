@@ -5,19 +5,19 @@ section.location
                 h2.contacts__title.section-title have any questions?
                 .form__col 
                     .form-contacts__input.input.input_contacts
-                        label(for="#").input__label Name
-                        input(type="text" placeholder="What is your name:").input__text
+                        label(for="con_name").input__label Name
+                        input(type="text" placeholder="What is your name:" name="con_name" id="con_name").input__text
                     .form-contacts__input.input.input_contacts
-                        label(for="#").input__label Phone
-                        input(type="text" placeholder="Your phone number:").input__text
+                        label(for="con_phone").input__label Phone
+                        input(type="text" placeholder="Your phone number:" name="con_phone" id="con_phone").input__text
                 .form__col 
                     .form-contacts__input.input.input_contacts
-                        label(for="#").input__label Question
-                        input(type="text" placeholder="I want to know:").input__text
+                        label(for="con_quest").input__label Question
+                        input(type="text" placeholder="I want to know:" name="con_quest" id="con_quest").input__text
                 .form__col
                     .checkbox.checkbox_contacts
-                        label(for="agree").checkbox__label 
-                            input(type="checkbox", name="agree" id="agree").checkbox__input
+                        label(for="con_agree").checkbox__label 
+                            input(type="checkbox", name="con_agree" id="con_agree").checkbox__input
                             span.checkbox__text I agree to the processing of personal data
                 .form__col
                     button(type="submit").form-contacts__btn.btn submit

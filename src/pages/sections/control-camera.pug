@@ -2,7 +2,7 @@ section.control-camera
     .control-camera__container.container
         h3.control-camera__title.section-title.section-title_camera online control
         .video
-            iframe(src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen).control-camera__video
+            iframe(src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG"  allow="autoplay; encrypted-media" allowfullscreen).control-camera__video
             .video__control
                 .video__play
         p.control-camera__text.line-text At each facility, a camera is installed that broadcasts the progress 
@@ -13,14 +13,14 @@ section.control-camera
         form(action="#").control-camera__form.form-control.form
             .form__col 
                 .form-control__input.input
-                    label(for="#").input__label Name
-                    input(type="text" placeholder="What is your name:").input__text
+                    label(for="control_name").input__label Name
+                    input(type="text" placeholder="What is your name:" name="control_name" id="control_name").input__text
                 .form-control__input.input
-                    label(for="#").input__label Phone
-                    input(type="text" placeholder="Your phone number:").input__text
+                    label(for="control_phone").input__label Phone
+                    input(type="text" placeholder="Your phone number:" name="control_phone" id="control_phone").input__text
                 button(type="submit").form-control__btn.btn submit
             .form__col
                 .checkbox
-                    label(for="agree").checkbox__label 
-                        input(type="checkbox", name="agree" id="agree").checkbox__input
+                    label(for="control_agree").checkbox__label 
+                        input(type="checkbox", name="control_agree" id="control_agree").checkbox__input
                         span.checkbox__text I agree to the processing of personal data
