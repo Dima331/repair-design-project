@@ -4,6 +4,12 @@
     position: relative;
     cursor: pointer;
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    @include mView {
+        height: 320px;
+    }
+    @include ssView {
+        height: 222px;
+    }
     .control-camera__video {
         width: 100%;
         display: flex;
@@ -28,10 +34,14 @@
         background-color: #E3B873;
         background-image: url("../img/icons/play.svg");
         background-repeat: no-repeat;
-
         background-position: 56%;
         background-size: 30%;
         transition: 0.3s;
+        @include sView {
+            width: 37px;
+            height: 37px;
+            top: 53%;
+        }
         &:hover {
             background-color: #d68400;
         }
@@ -39,7 +49,7 @@
             background-color: #a08252;
         }
     }
-    .control-camera__video{
+    .control-camera__video {
         width: 100%;
         height: 100%;
     }

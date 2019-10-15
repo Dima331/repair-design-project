@@ -13,7 +13,7 @@
         left: 0;
         top: 1049px;
         z-index: -1;
-        @include smView {
+        @include mView {
             background-image: none;
         }
     }
@@ -29,8 +29,9 @@
         background-position-y: 106%;
         top: 0;
         z-index: -1;
-        @include smView {
+        @include mView {
             background-image: none;
+            background-color: none;
         }
     }
 }

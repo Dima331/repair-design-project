@@ -1,13 +1,45 @@
+.control-camera {
+    background-color: none;
+    @include mView {
+        background-color: #131313;
+    }
+}
+
 .control-camera__container {
     width: 820px;
+    @include slView {
+        width: 100%;
+        padding: 0 10%;
+    }
+    @include mView {
+        width: 90%;
+        padding: 0;
+    }
     .control-camera__text {
         margin-top: 91px;
         padding: 0 66px;
+        @include mView {
+            color: #fff;
+            padding: 0;
+            margin-top: 57px;
+            font-size: 16px;
+        }
+        @include sView {
+            margin-top: 48px;
+            font-size: 14px;
+            line-height: 169.8%;
+        }
     }
     .control-camera__form {
         margin-top: 95px;
+        @include mView {
+            margin-top: 33px;
+        }
     }
     .control-camera__form {
         padding: 0 25px;
+        @include mView {
+            padding: 0;
+        }
     }
 }

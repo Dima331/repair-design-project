@@ -8,7 +8,9 @@
     color: #000;
     position: relative;
     margin-bottom: 76px;
-
+    @include mView {
+        font-size: 22px;
+    }
     &_camera::after {
         content: "";
         position: absolute;
@@ -65,10 +67,14 @@
         bottom: -47px;
     }
 }
-.design-project__title, .our-team__title, .our-clients__title{
+
+.design-project__title,
+.our-team__title,
+.our-clients__title {
     margin-bottom: 64px;
 }
 
-.control-camera__title, .our-team__title {
+.control-camera__title,
+.our-team__title {
     color: #fff;
 }

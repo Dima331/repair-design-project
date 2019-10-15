@@ -30,6 +30,9 @@
     }
     .about-design__line:nth-child(2n) {
         margin-bottom: 39px;
+        @include smView {
+            margin-bottom: 30px;
+        }
     }
     .about-design__title,
     .about-design__info {

@@ -6,6 +6,10 @@
         color: rgba(54, 54, 54, 0.5);
         position: absolute;
         top: -4px;
+        @include mView {
+            color: #fff;
+            color: rgba(255, 255, 255, 0.5);
+        }
     }
     .input__text {
         font-size: 18px;
@@ -19,6 +23,9 @@
         width: 100%;
         &::placeholder {
             color: #363636;
+            @include mView {
+                color: #fff;
+            }
         }
     }
 }

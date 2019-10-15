@@ -2,15 +2,49 @@
     display: flex;
     margin-bottom: 33px;
     justify-content: center;
+    @include mView {
+        flex-direction: column;
+        margin-bottom: 26px;
+    }
     &:last-child {
         margin-bottom: 0;
     }
     .form-control__input {
         flex: 1;
         margin-right: 55px;
+        @include mView {
+            margin-right: 0;
+            margin-bottom: 40px;
+            margin-bottom: 63px;
+        }
     }
     .form-control__btn {
         width: 200px;
         padding: 17px 32px;
+        @include mView {
+            display: none;
+        }
+    }
+    .form-control__btn_mob {
+        display: none;
+        @include mView {
+            display: block;
+            width: 100%;
+        }
+    }
+    .form-control__wrap {
+        @include mView {
+            display: flex;
+            justify-content: center;
+            transform: translateY(56px);
+        }
+    }
+}
+
+.form-control__input {
+    &:nth-child(2) {
+        @include mView {
+            margin-bottom: 0;
+        }
     }
 }

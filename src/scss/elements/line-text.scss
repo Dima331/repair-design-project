@@ -15,5 +15,8 @@
         transform: translateX(-50%);
         background: #e3b873;
         border-radius: 30px;
+        @include mView {
+            top: -19px;
+        }
     }
 }
