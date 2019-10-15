@@ -1,7 +1,22 @@
 .types-repair {
     padding-top: 121px;
+    @include mlView {
+        padding-top: 94px;
+    }
     .types-repair__container {
         position: relative;
         width: 1235px;
+        @include lView {
+            width: 96%;
+        }
+        @include mlView {
+            width: 500px;
+        }
+        @include smView {
+            width: 80%;
+        }
+        @include sView {
+            width: 90%;
+        }
     }
 }

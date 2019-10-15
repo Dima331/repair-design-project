@@ -1,8 +1,17 @@
 .repair-list {
     display: flex;
+    @include mlView {
+        flex-direction: column;
+    }
     .repair-list__item {
         flex: 1;
         margin-right: 30px;
+        @include mlView {
+            margin-right: 0;
+        }
+        @include smView {
+            margin-bottom: 181px;
+        }
         &:last-child {
             margin-right: 0;
         }
