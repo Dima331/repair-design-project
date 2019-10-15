@@ -1,0 +1,28 @@
+.location{
+    background-image: url("../img/bg/bg-map.jpg");
+    padding-bottom: 65px;
+    padding-top: 274px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location__container{
+    //width: 883px;
+    width: 925px;
+    margin: 0 auto;
+}
+.location__text{
+    font-family: "yesevaone";
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+.location__social{
+    margin-bottom: 42px;
+}
+

@@ -1,0 +1,25 @@
+.social{
+    display: flex;
+    justify-content: center;
+    .social__item{
+        margin-right: 17px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .social__link{
+        display: flex;
+        width: 28px;
+        height: 28px;
+        background: #E3B873;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+    }
+    .social__link_messege{
+        background-image: url("../img/icons/message.svg");
+    }
+    .social__link_inst{
+        background-image: url("../img/icons/insta.svg");
+    }
+}

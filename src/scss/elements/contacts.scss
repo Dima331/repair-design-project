@@ -1,22 +1,27 @@
 .contacts {
     background: #181818;
+    background-image:  url("../img/icons/lines.svg");
     width: 883px;
     margin: 0 auto;
-    padding: 30px 180px;
+    padding: 36px 180px;
+    position: absolute;
+    top: -23%;
+    left: 20%;
 }
 
 .contacts__title.section-title {
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 .contacts__form {
     .form__col {
-        margin-bottom: 50px;
+        margin-bottom: 47px;
     }
     .form-contacts__btn {
-        padding: 15px 88px;
+        padding: 19px 77px;
     }
-    .form-control__input {
+    .form-contacts__input {
         flex: 1;
         margin-right: 55px;
         &:last-child {
@@ -24,3 +29,5 @@
         }
     }
 }
+
+
