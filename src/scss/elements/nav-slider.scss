@@ -1,5 +1,6 @@
 .nav-slider {
     display: flex;
+    align-items: center;
     .nav-slider__prev {
         background-image: url("../img/icons/big_arrow.svg");
         background-repeat: no-repeat;
@@ -8,6 +9,10 @@
         height: 20px;
         transform: rotate(180deg);
         background-position: center;
+        transition: 0.3s;
+        &:hover {
+            transform: rotate(180deg) scale(1.3);
+        }
     }
     .nav-slider__next {
         background-image: url("../img/icons/big_arrow.svg");
@@ -16,5 +21,9 @@
         width: 45px;
         height: 20px;
         background-position: center;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 }

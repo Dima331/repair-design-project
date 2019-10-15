@@ -4,11 +4,24 @@
         font-size: 20px;
         line-height: 34px;
         font-family: "ProximaNova";
-        margin-bottom: 15px;
+        margin-bottom: 14px;
         &:last-child {
             margin-bottom: 0;
         }
     }
+    .furniture-style__link{
+            transition: 0.3s;
+            border-bottom: 1px solid #c7841900;
+    &:hover {
+        color: #E3B873;
+        border-bottom: 1px solid #E3B873;
+    }
+    &:active{
+            color: #d68400;
+            border-bottom: 1px solid #d68400;
+    }
+    }
+
     .active {
         color: #E3B873;
         //text-decoration: underline;

@@ -21,19 +21,19 @@ section.request
                     .form__col 
                         .request-form__input.input.input_request
                             label(for="req_name").input__label Name
-                            input(type="text" placeholder="What is your name:" name="req_name" id= "req_name").input__text
+                            input(type="text" placeholder="What is your name:" name="req_name" id= "req_name" required).input__text
                     .form__col
                         .request-form__input.input.input.input_request
                             label(for="req_phone").input__label Phone
-                            input(type="text" placeholder="Your phone number:" name="req_phone"  id= "req_phone").input__text
+                            input(type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Your phone number:" name="req_phone"  id= "req_phone" required).input__text
                     .form__col 
                         .request-form__input.input.input_request
                             label(for="req_email").input__label Email
-                            input(type="text" placeholder="Your email" name="req_email" id= "req_email").input__text
+                            input(type="email" placeholder="Your email" name="req_email" id= "req_email" required).input__text
                     .form__col
                         .checkbox.checkbox_request
                             label(for="req_agree").checkbox__label 
-                                input(type="checkbox", name="req_agree" id="req_agree").checkbox__input
+                                input(type="checkbox", name="req_agree" id="req_agree" checked).checkbox__input
                                 span.checkbox__text I agree to the processing of personal data
                     .form__col
                         button(type="submit").form-request__btn.btn Call the measurer

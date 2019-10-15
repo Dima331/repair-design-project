@@ -13,6 +13,15 @@
         text-transform: uppercase;
         color: rgba(255, 255, 255, 0.3);
         padding-bottom: 5px;
+        transition: 0.3s;
+        &:hover {
+            color: #E3B873;
+            border-bottom: 1px solid #E3B873;
+        }
+        &:active{
+                color: #d68400;
+                border-bottom: 1px solid #d68400;
+        }
     }
     .active {
         .name-design__btn {

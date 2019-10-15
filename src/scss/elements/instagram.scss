@@ -11,6 +11,18 @@
     left: 0;
     top: 0;
     background: #131313;
+    transition: 0.7s;
+    &:hover{
+        background: #e3b873;
+        color:#131313;
+        .instagram__line{
+   
+        &:before {
+            background-color: #131313;
+         }}
+    }
+    
+}
     .instagram__link {
         height: 100%;
         position: relative;
@@ -35,8 +47,10 @@
                 background-color: #e3b873;
                 top: 50%;
                 transform: translateY(-50%);
-                right: -67px;
-            }
-        }
+                right: -67px; 
+                 transition: 0.7s;
+                
+            
+            } 
     }
 }

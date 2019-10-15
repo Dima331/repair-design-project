@@ -4,4 +4,9 @@
     line-height: 16px;
     text-decoration-line: underline;
     color: #E3B873;
+    transition: 0.3s;
+    &:hover{
+        color: #d68400;
+    }
+
 }

@@ -19,5 +19,12 @@
         background-size: 30%;
         transition: 0.3s;
         cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            background-color: #d68400;
+        }
+        &:active {
+            background-color: #a08252;
+        }
     }
 }

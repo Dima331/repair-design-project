@@ -6,9 +6,9 @@
         //margin: 0 10px;
         margin: 10px;
         padding: 0 10px;
-        
-margin: 0 5px 0 5px;
-padding: 0 5px;
+        display: flex;
+        margin: 0 5px 0 5px;
+        padding: 0 5px;
     }
     .active {
         .dote-slider__btn {
@@ -21,5 +21,10 @@ padding: 0 5px;
         border-radius: 50%;
         background: rgba(255, 255, 255, 0.3);
         border-radius: 30px;
+        transition: 0.3s;
+        &:hover {
+            background-color: #fff;
+            transform: scale(1.5);
+        }
     }
 }

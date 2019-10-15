@@ -4,5 +4,10 @@
         text-transform: uppercase;
         font-family: "futurademic";
         color: #E3B873;
+        transition: 0.3s;
+        &:hover{
+            color: #d68400;
+        }
     }
+
 }

@@ -15,6 +15,10 @@
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 50%;
+        transition: 0.3s;
+        &:hover{
+            background-color: #d68400;
+        }
     }
     .social__link_messege{
         background-image: url("../img/icons/message.svg");

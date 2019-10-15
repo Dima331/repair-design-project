@@ -17,22 +17,27 @@
     line-height: 21px;
     text-transform: uppercase;
     color: #FFFFFF;
-    opacity: 0.5;
     border-bottom: 1px solid #E3B873;
     margin-bottom: 10px;
+    display: inline-table;
 }
 
 .one-step__info {
-    opacity: 0.5;
     font-family: "futurabookc";
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
 }
+.one-step{
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+
+}
 
 .active {
-    .one-step__title,
-    .one-step__info {
+    .one-step {
         opacity: 1;
     }
 }

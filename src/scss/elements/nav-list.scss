@@ -13,8 +13,12 @@
         color: #FFFFFF;
         text-transform: uppercase;
         padding: 10px;
+        transition: 0.3s;
         &:hover {
             color: #E3B873;
+        }
+        &:active{
+                color: #d68400;
         }
     }
     .active {

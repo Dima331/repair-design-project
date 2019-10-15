@@ -9,6 +9,15 @@
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
+    transition: 0.3s;
+    &:hover{
+        background: #d68400;
+        border: 1px solid #d68400;
+    }
+    &:active{
+        background: #a08252;
+        border: 1px solid #a08252;
+}
     &_oppacity {
         box-shadow: none;
         border: 1px solid #fff;
