@@ -9,6 +9,9 @@
     left: 7px;
     z-index: 30;
     transition: 0.3s;
+    @include mlView{
+        display: none;
+    }
     &:hover {
         background-color: #463924;
     }

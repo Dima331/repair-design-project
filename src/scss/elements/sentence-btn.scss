@@ -1,5 +1,9 @@
 .sentence-btn {
     .sentence-btn__calcul {
         margin-right: 20px;
+        @include smView {
+            margin-right: 0;
+            margin-bottom: 26px;
+        }
     }
 }

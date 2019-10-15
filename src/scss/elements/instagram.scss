@@ -12,6 +12,9 @@
     top: 0;
     background: #131313;
     transition: 0.7s;
+    @include mlView{
+     display: none;
+    }
     &:hover{
         background: #e3b873;
         color:#131313;
