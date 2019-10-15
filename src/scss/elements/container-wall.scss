@@ -1,18 +1,21 @@
-.container-wall{
-        //padding: 150px 0 400px;
-        background-repeat: no-repeat;
+.container-wall {
+    //padding: 150px 0 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &:after {
+        background-image: url("../img/icons/LINE.svg");
         background-size: cover;
-        position: relative;
-        &:after {
-            background-image: url("../img/icons/LINE.svg");
-            background-size: cover;
-            width: 100%;
-            content: "";
-            position: absolute;
-            height: 80%;
-            left: 0;
-            top: 1049px;
-            z-index: -1;
+        width: 100%;
+        content: "";
+        position: absolute;
+        height: 80%;
+        left: 0;
+        top: 1049px;
+        z-index: -1;
+        @include smView {
+            background-image: none;
+        }
     }
     &::before {
         background-color: #131313;
@@ -26,5 +29,8 @@
         background-position-y: 106%;
         top: 0;
         z-index: -1;
-}
+        @include smView {
+            background-image: none;
+        }
+    }
 }

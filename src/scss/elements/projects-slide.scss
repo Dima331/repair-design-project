@@ -5,11 +5,32 @@
     left: 0;
     width: 1400px;
     height: 482px;
+    @include lView {
+        width: auto;
+        height: auto;
+    }
+    @include smView {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .projects-slide__item {
     margin-right: 20px;
+    .projects-slide__img {
+        @include smView {
+            width: 100%;
+        }
+    }
+    @include lView {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
     &:last-child {
         margin-right: 0;
+        @include lView {
+            display: none;
+        }
     }
 }

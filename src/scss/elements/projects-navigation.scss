@@ -4,6 +4,15 @@
     height: 30px;
     top: 54%;
     transform: translate(13%, -50%);
+    @media only screen and (max-width: 1400px) {
+        transform: translate(8%, -50%);
+    }
+    @include lView {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        width: 90%;
+    }
     .projects-navigation__next {
         position: absolute;
         width: 55px;
@@ -20,6 +29,44 @@
         transition: 0.3s;
         cursor: pointer;
         transition: 0.3s;
+        @include lView {
+            transform: translateY(-50%);
+            right: 0;
+            left: auto;
+            width: 36px;
+            height: 36px;
+        }
+        &:hover {
+            background-color: #d68400;
+        }
+        &:active {
+            background-color: #a08252;
+        }
+    }
+    .projects-navigation__prev {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: #E3B873;
+        background-image: url("../img/icons/arrow_fff.svg");
+        background-repeat: no-repeat;
+        background-position: 56%;
+        background-size: 30%;
+        transition: 0.3s;
+        cursor: pointer;
+        transition: 0.3s;
+        display: none;
+        @include lView {
+            display: flex;
+            left: 0;
+            transform: translateY(-50%) rotate(180deg);
+            width: 36px;
+            height: 36px;
+        }
         &:hover {
             background-color: #d68400;
         }

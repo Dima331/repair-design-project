@@ -9,6 +9,9 @@
         text-transform: uppercase;
         color: #E3B873;
         //margin-bottom: 15px;
+        @include smView {
+            font-size: 14px;
+        }
     }
     .about-design__info {
         font-family: "futurademic";
@@ -16,6 +19,10 @@
         line-height: 20px;
         color: #FFFFFF;
         padding-right: 83px;
+        @include smView {
+            font-size: 14px;
+            padding-right: 65px;
+        }
     }
     .about-design__line {
         margin-bottom: 3px;

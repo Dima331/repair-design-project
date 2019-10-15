@@ -10,9 +10,13 @@
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         right: -127px;
+        @include lView {
+            display: none;
+        }
     }
 }
-.how-working{
+
+.how-working {
     .title-line {
         &::after {
             top: 61%;

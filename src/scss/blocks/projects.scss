@@ -2,6 +2,12 @@
     z-index: 90;
     padding-top: 106px;
     padding-bottom: 56px;
+    @include mlView {
+        padding-top: 30px;
+    }
+    @include smView {
+        padding-top: 34px;
+    }
     // background: #131313;
     // padding: 150px 0 400px;
     // background-image: url("../img/icons/lines.svg");
@@ -25,6 +31,22 @@
     flex-direction: row;
     position: relative;
     width: 1235px;
+    @include lView {
+        width: 550px;
+        margin: 0 auto;
+        align-items: center;
+        //text-align: center;
+    }
+    @include smView {
+        width: 90%;
+    }
+}
+
+.projects__name-design,
+.projects__nav-slider {
+    @include lView {
+        display: none;
+    }
 }
 
 .projects__info {
@@ -34,6 +56,12 @@
     min-height: 559px;
     display: flex;
     flex-direction: column;
+    @include lView {
+        padding-top: 0;
+        width: 100%;
+        margin-right: 0;
+        min-height: auto;
+    }
 }
 
 .projects__title {
@@ -45,6 +73,30 @@
     color: #E3B873;
     margin-bottom: 22px;
     padding-right: 150px;
+    @include lView {
+        text-align: center;
+        padding-right: 0;
+    }
+    @include smView {
+        font-size: 22px;
+        padding: 0 17%;
+        line-height: 138.6%;
+    }
+}
+
+.projects__choice {
+    @include lView {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 400px;
+        top: 22%;
+    }
+    @include smView {
+        height: 243px;
+        top: 31%;
+    }
 }
 
 .projects__text {
@@ -53,6 +105,19 @@
     font-family: "futurabookc";
     color: #FFFFFF;
     margin-bottom: 48px;
+    @include lView {
+        margin-bottom: 470px;
+    }
+    @include smView {
+        margin-bottom: 423px;
+        font-size: 14px;
+        padding: 0 4%;
+        text-align: center;
+        line-height: 158.48%;
+    }
+    @include ssView {
+        margin-bottom: 317px;
+    }
 }
 
 .projects__name-design {
