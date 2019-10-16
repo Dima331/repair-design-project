@@ -1,16 +1,37 @@
 .location{
     background-image: url("../img/bg/bg-map.jpg");
+    background-color: #131313;
     padding-bottom: 65px;
     padding-top: 274px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    @include lView {
+        padding-top: 49px;
+    }
+    @include mlView {
+        background-image: none;
+        background-color: #131313;
+    }
 }
 .location__container{
     //width: 883px;
     width: 925px;
     margin: 0 auto;
     position: relative;
+    @include lView {
+        width: 550px;
+    }
+    @include smView {
+        width: 90%;
+    }
+    
+}
+.location__content{
+    @include lView {
+        display: flex;
+        flex-direction: column;
+    }
 }
 .location__text{
     font-family: "yesevaone";
@@ -22,8 +43,21 @@
     width: 60%;
     margin: 0 auto;
     margin-bottom: 23px;
+    @include lView {
+        margin-bottom: 0;
+        margin-top: 41px;
+        order: 1;
+        width: 100%;
+        font-size: 18px;
+line-height: 138.6%;
+    }
 }
 .location__social{
     margin-bottom: 42px;
+    @include lView {
+        margin-bottom: 0;
+        margin-top: 24px;
+        order: 2;
+    }
 }
 

@@ -27,6 +27,12 @@
                 color: #fff;
             }
         }
+        @include mView {
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            background-color: #131313;
+            background: #faebd700;
+        }
     }
 }
 

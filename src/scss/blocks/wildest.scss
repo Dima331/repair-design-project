@@ -30,26 +30,6 @@
         margin-bottom: 34px;
         width: 300px;
     }
-    .wildest__choice-pic {
-        position: absolute;
-        right: 0;
-        display: flex;
-        flex-wrap: wrap;
-        width: 750px;
-        height: 1020px;
-        top: 41%;
-        transform: translateY(-50%);
-        @include lView {
-            position: relative;
-            right: auto;
-            width: 100%;
-            height: 100%;
-            top: auto;
-            transform: translateY(0);
-            justify-content: center;
-        }
-       
-    }
     .wildest__choice-style{
          @include lView {
             display: none;
@@ -75,18 +55,62 @@
         }
     }
     .wildest__choice-wrap{
+        width: 100%;
         @include lView {
+            position: relative;
+            right: auto;
+            width: 100%;
+            //height: 100%;
+            top: auto;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            justify-content: center;
+    }
+}
+}
+.wildest__choice-pic {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 1020px;
+    top: 41%;
+    transform: translateY(-50%);
+    @include lView {
         position: relative;
         right: auto;
         width: 100%;
         height: 100%;
         top: auto;
-        -webkit-transform: translateY(0);
         transform: translateY(0);
         justify-content: center;
-    }}
+    }
+   
 }
 
+.furniture-pic__picture {
+    display: flex;
+    @include lView {
+        margin-bottom: 0;
+        width: 100%;
+        height: 100%;
+       
+    }
+    // &:first-child {
+    //     margin-top: 72px;
+    //     @include lView {
+    //         margin-top: 0;
+    //     }
+    // }
+  
+    .furniture-pic__img{
+        width: 100%;
+        @include lView {
+            height: 100%;
+        }
+    }
+}
 // .main {
 //     padding: 300px 0;
 // }

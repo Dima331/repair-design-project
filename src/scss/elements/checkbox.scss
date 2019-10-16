@@ -9,6 +9,9 @@
 .checkbox__label {
     padding-left: 35px;
     cursor: pointer;
+    @include mView {
+        padding-left: 26px;
+    }
 }
 
 .checkbox__text:before {
