@@ -14,6 +14,9 @@
         }
         &:last-child {
             margin-right: 0;
+            @include smView {
+                margin-bottom: 145px;
+            }
         }
     }
     .repair__img {

@@ -1,7 +1,19 @@
 .team-list {
     @extend .repair-list;
+    
     justify-content: space-between;
-    .team-list__item {
-       // margin-right: 30px;
+    @include mlView{
+       align-items: center; 
     }
+    .team-list__item {
+        @include mlView{
+            margin-bottom: 89px;
+         }
+         &:last-child {
+            @include mlView{
+                margin-bottom: 0; 
+             }  
+         }
+    }
+    
 }

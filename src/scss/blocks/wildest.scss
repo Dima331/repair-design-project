@@ -4,9 +4,23 @@
     background-size: cover;
     padding: 140px 0 93px;
     max-height: 857px;
+    @include lView {
+        padding: 50px 0 50px;
+    }
+    @include smView{
+        padding:0;
+        padding-bottom: 30px;
+        background-image: none;
+    }
     .wildest__container {
         width: 1240px;
         position: relative;
+        @include lView {
+            width: 500px;
+        }
+        @include smView{
+            width: 90%;
+        }
     }
     .wildest__title {
         font-size: 27px;
@@ -25,7 +39,52 @@
         height: 1020px;
         top: 41%;
         transform: translateY(-50%);
+        @include lView {
+            position: relative;
+            right: auto;
+            width: 100%;
+            height: 100%;
+            top: auto;
+            transform: translateY(0);
+            justify-content: center;
+        }
+       
     }
+    .wildest__choice-style{
+         @include lView {
+            display: none;
+        }
+    }
+    .wildest__title_slider{
+        display: none;
+        @include lView {
+            display: flex;
+        }
+    }
+    .wildest__title_slider{
+        text-align: center;
+        @include smView{
+            font-size: 22px;
+            line-height: 138.6%;
+        }
+    }
+    .projects-navigation{
+        display: none;
+        @include lView {
+            display: flex;
+        }
+    }
+    .wildest__choice-wrap{
+        @include lView {
+        position: relative;
+        right: auto;
+        width: 100%;
+        height: 100%;
+        top: auto;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        justify-content: center;
+    }}
 }
 
 // .main {

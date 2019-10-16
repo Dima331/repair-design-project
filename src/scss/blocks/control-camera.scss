@@ -2,6 +2,7 @@
     background-color: none;
     @include mView {
         background-color: #131313;
+        padding-bottom: 40px;
     }
 }
 

@@ -15,6 +15,23 @@
         left: 0;
         top: 1071px;
         z-index: -1;
+        background-position-y: 407px;
+        width: 100%;
+        content: "";
+        position: absolute;
+        height: 25%;
+        left: 0;
+        top: 1070px;
+        top: 2606px;
+        z-index: -1;
+        @include lView {
+            top: 463px;
+            background-position-y: 167px;
+        }
+        @include mView {
+            background-image: none;
+            background-color: inherit;
+        }
     }
     &::before {
         background-color: #131313;
@@ -28,5 +45,24 @@
         background-position-y: 106%;
         top: 16.5%;
         z-index: -1;
+
+        height: 1610px;
+        top: 13.5%;
+        @include lView {
+            height: 910px;
+            background-image: none;
+            background-color: inherit;
+        }
+        @include mView {
+            background-image: none;
+            background-color: inherit;
+        }
+        @include smView{
+            background-color: #131313;
+            top: -213px;
+        }
+        @include sView{
+            top: -133px;
+        }
     }
 }

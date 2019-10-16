@@ -26,12 +26,20 @@ section.wildest
                 li.furniture-style__item
                     button(type="button").furniture-style__link Eclecticism
         .wildest__choice-pic
-            ul.furniture-pic
-                li.furniture-pic__item
-                    img(src="img/furniture/f1.jpg", alt="#").furniture-pic__img
-                li.furniture-pic__item
-                    img(src="img/furniture/f2.jpg", alt="#").furniture-pic__img
-                li.furniture-pic__item
-                    img(src="img/furniture/f3.jpg", alt="#").furniture-pic__img
-                li.furniture-pic__item
-                    img(src="img/furniture/f4.jpg", alt="#").furniture-pic__img
+            h2.wildest__title.section-title.wildest__title_slider We realize your wildest fantasies
+            .wildest__choice-wrap
+                ul.furniture-pic
+                    li.furniture-pic__item
+                        picture.furniture-pic__picture
+                            source(media="(max-width: 1300px)" srcset="img/furniture/slide.jpg").furniture-pic__sourse
+                            source(media="(min-width: 1301px)" srcset="img/furniture/f1.jpg").furniture-pic__sourse
+                            img(src="img/furniture/f1.jpg", alt="furniture").furniture-pic__img
+                    li.furniture-pic__item
+                        img(src="img/furniture/f2.jpg", alt="furniture").furniture-pic__img.hiden
+                    li.furniture-pic__item
+                        img(src="img/furniture/f3.jpg", alt="furniture").furniture-pic__img.hiden
+                    li.furniture-pic__item
+                        img(src="img/furniture/f4.jpg", alt="furniture").furniture-pic__img.hiden
+                .projects-navigation
+                    button(type="button").projects-navigation__prev
+                    button(type="button").projects-navigation__next

@@ -12,9 +12,10 @@
         height: 80%;
         left: 0;
         top: 1049px;
-        z-index: -1;
+        z-index: -1;      
         @include mView {
             background-image: none;
+            background-color: none;
         }
     }
     &::before {
@@ -29,9 +30,11 @@
         background-position-y: 106%;
         top: 0;
         z-index: -1;
+        @include lView {
+            height: 1214px;
+        }
         @include mView {
             background-image: none;
-            background-color: none;
         }
     }
 }

@@ -4,6 +4,10 @@
 .one-worker{
     position: relative;
     width: 270px;
+    @include ssView{
+        width: 100%;
+        padding-left: 10%;
+    }
 }
 .one-worker__info {
     background-color: #fff;
@@ -12,6 +16,10 @@
     margin-top: -80px;
     position: relative;
     padding-top: 21px;
+    @include ssView{
+    width: 75%;
+    margin-top: -125px;
+    }
     .one-worker__name {
         color: #363636;
         font-size: 18px;
@@ -55,6 +63,9 @@
         //background-image: url("../img/icons/portfolio.svg");      
         background-repeat: no-repeat;
         background-position: center;
+        @include ssView{
+            left: 0px;
+        }
         &_idea{
             background-image: url("../img/icons/idea.svg");
         }
@@ -63,5 +74,11 @@
         }
         &_portfolio{
             background-image: url("../img/icons/portfolio.svg");
+        }
+
+        .one-worker__pic{
+            @include ssView{
+                height: 360px;
+            }
         }
     }

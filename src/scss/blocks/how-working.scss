@@ -3,6 +3,9 @@
     //padding: 150px 0 400px;
     padding-top: 0;
     margin-top: -162px;
+    @include lView {
+        display: none;
+    }
 }
 
 .how-working__title {

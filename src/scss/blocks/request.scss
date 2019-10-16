@@ -1,6 +1,9 @@
 .request {
     padding-top: 101px;
     padding-bottom: 251px;
+    @include lView {
+        display: none;
+    }
     .request__form {
         width: 505px;
     }

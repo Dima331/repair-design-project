@@ -1,7 +1,10 @@
 .repair {
     position: relative;
 }
-
+.hiden{
+    @include lView{
+    display: none;}
+}
 .repair-benefits {
     padding: 25px 35px 55px;
     background-color: #fff;
@@ -47,6 +50,9 @@
             font-size: 13px;
             margin-bottom: 0;
             line-height: 169.8%;
+            padding-left: 12px;
+
+            margin-bottom: 1px;
         }
         &::before {
             content: "";
@@ -58,6 +64,10 @@
             top: 50%;
             transform: translateY(-50%);
             left: 2px;
+            @include smView {
+                width: 4px;
+                height: 4px;  
+            }
         }
         &:last-child {
             margin-bottom: 0;

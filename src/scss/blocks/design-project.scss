@@ -1,7 +1,25 @@
 .design-project {
     padding-top: 165px;
-    .design-project__container{
+    @include lView {
+        padding-top: 30px;
+    }
+    @include smView {
+        background-color: #131313;
+    }
+    .design-project__container {
         width: 1240px;
+        @include lView {
+            width: 96%;
+        }
+        @include mlView {
+            width: 500px;
+        }
+        @include smView {
+            width: 80%;
+        }
+        @include sView {
+            width: 90%;
+        }
     }
     .design-project__dec {
         font-family: "futurabookc";
@@ -12,11 +30,37 @@
         width: 53%;
         margin: 0 auto;
         margin-bottom: 46px;
+        @include mlView {
+            width: 100%;
+            font-size: 14px;
+            line-height: 158.48%;
+            padding: 0 34px;
+            margin-bottom: 34px;
+        }
+        @include smView {
+            color: #fff;
+        }
+    }
+    .section-title_design-project{
+        @include smView {
+            color: #fff;
+        }
     }
     .repair-benefits {
         padding: 25px 35px 57px;
-    } 
-    .repair-benefits__btn{
+
+        @include mlView {
+          padding: 18px 32px 46px;
+
+        }   
+      
+    }
+    .repair-list__item.repair {
+        @include mlView {
+            //margin-bottom: 113px;
+        }
+    }
+    .repair-benefits__btn {
         bottom: -30px;
     }
 }

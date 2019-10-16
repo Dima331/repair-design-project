@@ -1,18 +1,20 @@
 .footer {
     background-color: #131313;
     padding: 50px 0 44px;
+    @include mlView {
+        display: none;
+    }
     .footer__container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         width: 1260px;
-  
     }
-    .footer__nav{
+    .footer__nav {
         padding-left: 33px;
     }
-    .footer__phone{
+    .footer__phone {
         margin-left: 13px;
     }
 }
