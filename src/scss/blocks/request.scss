@@ -1,48 +1,42 @@
 .request {
-    padding-top: 101px;
-    padding-bottom: 251px;
-    @include lView {
-        display: none;
+  padding-top: 101px;
+  padding-bottom: 251px;
+  @include lView {
+    display: none;
+  }
+  .request__form {
+    width: 505px;
+  }
+  .request__container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 1240px;
+    &:after {
+      background-image: url("../img/bg/bilding.png");
+      background-repeat: no-repeat;
+      width: 966px;
+      content: "";
+      position: absolute;
+      height: 645px;
+      left: -31.5%;
+      bottom: 63px;
     }
-    .request__form {
-        width: 505px;
+    &:before {
+      content: "";
+      width: 600px;
+      height: 637px;
+      position: absolute;
+      background-image: url("../img/icons/ellipse.svg");
+      background-repeat: no-repeat;
+      top: -184px;
+      left: -223px;
+      top: -9%;
+      left: -16%;
     }
-    // .request__container-bg {
-    //     background-image: url("../img/bg/image 6.1.png");
-    //     background-repeat: no-repeat;
-    //     width: 2000px;
-    //     margin: 0 auto;
-    // }
-    .request__container {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        width: 1240px;
-        &:after {
-            background-image: url("../img/bg/bilding.png");
-            background-repeat: no-repeat;
-            width: 966px;
-            content: "";
-            position: absolute;
-            height: 645px;
-            left: -31.5%;
-            bottom: 63px;
-        }
-        &:before {
-            content: "";
-            width: 600px;
-            height: 637px;
-            position: absolute;
-            background-image: url("../img/icons/ellipse.svg");
-            background-repeat: no-repeat;
-            top: -184px;
-            left: -223px;
-            top: -9%;
-            left: -16%;
-        }
-    }
-    .request__menu {
-        width: 60%;
-        position: relative;
-    }
+  }
+  .request__menu {
+    width: 60%;
+    position: relative;
+  }
 }

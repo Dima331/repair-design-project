@@ -1,85 +1,82 @@
 .one-worker__img {
-    width: 100%;
+  width: 100%;
 }
-.one-worker{
-    position: relative;
-    width: 270px;
-    @include ssView{
-        width: 100%;
-        padding-left: 10%;
-    }
+.one-worker {
+  position: relative;
+  width: 270px;
+  @include ssView {
+    width: 100%;
+    padding-left: 10%;
+  }
 }
 .one-worker__info {
-    background-color: #fff;
-    width: 85%;
-    margin: 0 auto;
-    margin-top: -80px;
-    position: relative;
-    padding-top: 21px;
-    @include ssView{
+  background-color: #fff;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: -80px;
+  position: relative;
+  padding-top: 21px;
+  @include ssView {
     width: 75%;
 
     margin-top: -64px;
-    }
-    .one-worker__name {
-        color: #363636;
-        font-size: 18px;
-        line-height: 25px;
-        font-family: "yesevaone";
+  }
+  .one-worker__name {
+    color: #363636;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "yesevaone";
 
-        text-align: center;
-    }
-    .one-worker__position {
-        color: #959595;
-        text-align: center;
-        font-size: 18px;
-        font-family: "futurabookc";
-        line-height: 26px;
-        margin-bottom: 23px;
-    }
-    .one-worker__experience {
-        width: 100%;
-    }
-    .one-worker__experience {
-        padding: 10px 0;
-        background-color: #E3B873;
-        font-size: 13px;
-        line-height: 20px;
-        text-align: center;
-        text-transform: uppercase;
-        font-family: "yesevaone";
-        color: #FFFFFF;
-    }
-   
-} 
-.one-worker__icon{
-        background: #E3B873;
-        box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
-        position: absolute;
-        width: 70px;
-        height: 70px;
-        top: -33px;
-        left: -37px;
-        //background-image: url("../img/icons/vectr.svg");
-        //background-image: url("../img/icons/portfolio.svg");      
-        background-repeat: no-repeat;
-        background-position: center;
-        @include ssView{
-            left: 0px;
-        }
-        &_idea{
-            background-image: url("../img/icons/idea.svg");
-        }
-        &_vectr{
-            background-image: url("../img/icons/vectr.svg");
-        }
-        &_portfolio{
-            background-image: url("../img/icons/portfolio.svg");
-        }
+    text-align: center;
+  }
+  .one-worker__position {
+    color: #959595;
+    text-align: center;
+    font-size: 18px;
+    font-family: "futurabookc";
+    line-height: 26px;
+    margin-bottom: 23px;
+  }
+  .one-worker__experience {
+    width: 100%;
+  }
+  .one-worker__experience {
+    padding: 10px 0;
+    background-color: #e3b873;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "yesevaone";
+    color: #ffffff;
+  }
+}
+.one-worker__icon {
+  background: #e3b873;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -33px;
+  left: -37px;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include ssView {
+    left: 0px;
+  }
+  &_idea {
+    background-image: url("../img/icons/idea.svg");
+  }
+  &_vectr {
+    background-image: url("../img/icons/vectr.svg");
+  }
+  &_portfolio {
+    background-image: url("../img/icons/portfolio.svg");
+  }
 
-        .one-worker__pic{
-            @include ssView{
-                height: 360px;
-            }
-        }
+  .one-worker__pic {
+    @include ssView {
+      height: 360px;
     }
+  }
+}

@@ -1,31 +1,31 @@
 .nav-list {
-    display: flex;
+  display: flex;
 
-    .nav-list__item {
-        margin-right: 28px;
-        &:last-child{
-            margin-right:0;
-        }
-        @include lView {
-            margin-right: 5px;
-        }
+  .nav-list__item {
+    margin-right: 28px;
+    &:last-child {
+      margin-right: 0;
     }
-    .nav-list__btn {
-        font-family: "futurabookc";
-        font-size: 14px;
-        line-height: 16px;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        padding: 10px;
-        transition: 0.3s;
-        &:hover {
-            color: #E3B873;
-        }
-        &:active{
-                color: #d68400;
-        }
+    @include lView {
+      margin-right: 5px;
     }
-    .active {
-        color: #E3B873;
+  }
+  .nav-list__btn {
+    font-family: "futurabookc";
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.3s;
+    &:hover {
+      color: #e3b873;
     }
+    &:active {
+      color: #d68400;
+    }
+  }
+  .active {
+    color: #e3b873;
+  }
 }

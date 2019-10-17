@@ -1,101 +1,102 @@
 .repair {
-    position: relative;
+  position: relative;
 }
-.hiden{
-    @include lView{
-    display: none;}
+.hiden {
+  @include lView {
+    display: none;
+  }
 }
 .repair-benefits {
-    padding: 25px 35px 55px;
-    background-color: #fff;
-    width: 84%;
-    margin: 0 auto;
-    -webkit-transform: translateY(-145px);
-    transform: translateY(-129px);
-    position: relative;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  padding: 25px 35px 55px;
+  background-color: #fff;
+  width: 84%;
+  margin: 0 auto;
+  -webkit-transform: translateY(-145px);
+  transform: translateY(-129px);
+  position: relative;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  @include smView {
+    margin: 0;
+    transform: translateY(-160px);
+    padding: 21px 45px 12px;
+    width: 285px;
+    transform: translateY(0);
+    padding: 18px 32px 46px;
+    width: 271px;
+    position: absolute;
+    bottom: -27%;
+    left: 0;
+  }
+  .repair-benefits__title {
+    color: #363636;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "yesevaone";
+    margin-bottom: 4px;
     @include smView {
-        margin: 0;
-        transform: translateY(-160px);
-        padding: 21px 45px 12px;
-        width: 285px;
-        transform: translateY(0);
-        padding: 18px 32px 46px;
-        width: 271px;
-        position: absolute;
-        bottom: -27%;
-        left: 0;
+      font-size: 15px;
+      line-height: 138.6%;
+      margin-bottom: 5px;
     }
-    .repair-benefits__title {
-        color: #363636;
-        font-size: 18px;
-        line-height: 25px;
-        font-family: "yesevaone";
-        margin-bottom: 4px;
-        @include smView {
-            font-size: 15px;
-            line-height: 138.6%;
-            margin-bottom: 5px;
-        }
-    }
-    .benefits-list__item {
-        font-family: "futurabookc";
-        font-size: 15px;
-        line-height: 20px;
-        color: #959595;
-        margin-bottom: 6px;
-        padding-left: 20px;
-        position: relative;
-        @include smView {
-            font-size: 13px;
-            margin-bottom: 0;
-            line-height: 169.8%;
-            padding-left: 12px;
+  }
+  .benefits-list__item {
+    font-family: "futurabookc";
+    font-size: 15px;
+    line-height: 20px;
+    color: #959595;
+    margin-bottom: 6px;
+    padding-left: 20px;
+    position: relative;
+    @include smView {
+      font-size: 13px;
+      margin-bottom: 0;
+      line-height: 169.8%;
+      padding-left: 12px;
 
-            margin-bottom: 1px;
-        }
-        &::before {
-            content: "";
-            width: 6px;
-            height: 6px;
-            position: absolute;
-            border-radius: 50%;
-            background-color: #959595;
-            top: 50%;
-            transform: translateY(-50%);
-            left: 2px;
-            @include smView {
-                width: 4px;
-                height: 4px;  
-            }
-        }
-        &:last-child {
-            margin-bottom: 0;
-        }
+      margin-bottom: 1px;
     }
-    .repair-benefits__btn {
-        background: #E3B873;
-        box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-        font-size: 18px;
-        padding: 17px 21px;
-        font-family: "yesevaone";
-        position: absolute;
-        position: absolute;
-        left: 0;
-        bottom: -31px;
-        transition: 0.3s;
-        @include smView {
-            font-size: 15px;
-            padding: 12px 21px;
-            bottom: -24px;
-        }
-        &:hover {
-            background: #d68400;
-            border: 1px solid #d68400;
-        }
-        &:active {
-            background: #a08252;
-            border: 1px solid #a08252;
-        }
+    &::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: #959595;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 2px;
+      @include smView {
+        width: 4px;
+        height: 4px;
+      }
     }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .repair-benefits__btn {
+    background: #e3b873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-size: 18px;
+    padding: 17px 21px;
+    font-family: "yesevaone";
+    position: absolute;
+    position: absolute;
+    left: 0;
+    bottom: -31px;
+    transition: 0.3s;
+    @include smView {
+      font-size: 15px;
+      padding: 12px 21px;
+      bottom: -24px;
+    }
+    &:hover {
+      background: #d68400;
+      border: 1px solid #d68400;
+    }
+    &:active {
+      background: #a08252;
+      border: 1px solid #a08252;
+    }
+  }
 }

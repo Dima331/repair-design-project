@@ -1,68 +1,67 @@
 .container-side {
-    //padding: 150px 0 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    &:after {
-        background-image: url("../img/icons/city.svg"), url("../img/icons/LINE.svg");
-        background-size: 728px, cover;
-        background-repeat: repeat-x, repeat;
-        background-position-y: 86%;
-        width: 100%;
-        content: "";
-        position: absolute;
-        height: 80%;
-        left: 0;
-        top: 1071px;
-        z-index: -1;
-        background-position-y: 407px;
-        width: 100%;
-        content: "";
-        position: absolute;
-        height: 25%;
-        left: 0;
-        top: 1070px;
-        top: 2606px;
-        z-index: -1;
-        @include lView {
-            top: 463px;
-            background-position-y: 167px;
-        }
-        @include mView {
-            background-image: none;
-            background-color: inherit;
-        }
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &:after {
+    background-image: url("../img/icons/city.svg"), url("../img/icons/LINE.svg");
+    background-size: 728px, cover;
+    background-repeat: repeat-x, repeat;
+    background-position-y: 86%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 80%;
+    left: 0;
+    top: 1071px;
+    z-index: -1;
+    background-position-y: 407px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 25%;
+    left: 0;
+    top: 1070px;
+    top: 2606px;
+    z-index: -1;
+    @include lView {
+      top: 463px;
+      background-position-y: 167px;
     }
-    &::before {
-        background-color: #131313;
-        background-image: url("../img/icons/lines.svg");
-        background-repeat: repeat;
-        width: 100%;
-        content: "";
-        position: absolute;
-        height: 1617px;
-        left: 0;
-        background-position-y: 106%;
-        top: 16.5%;
-        z-index: -1;
+    @include mView {
+      background-image: none;
+      background-color: inherit;
+    }
+  }
+  &::before {
+    background-color: #131313;
+    background-image: url("../img/icons/lines.svg");
+    background-repeat: repeat;
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 1617px;
+    left: 0;
+    background-position-y: 106%;
+    top: 16.5%;
+    z-index: -1;
 
-        height: 1610px;
-        top: 13.5%;
-        @include lView {
-            height: 910px;
-            background-image: none;
-            background-color: inherit;
-        }
-        @include mView {
-            background-image: none;
-            background-color: inherit;
-        }
-        @include smView{
-            background-color: #131313;
-            top: -213px;
-        }
-        @include sView{
-            top: -133px;
-        }
+    height: 1610px;
+    top: 13.5%;
+    @include lView {
+      height: 910px;
+      background-image: none;
+      background-color: inherit;
     }
+    @include mView {
+      background-image: none;
+      background-color: inherit;
+    }
+    @include smView {
+      background-color: #131313;
+      top: -213px;
+    }
+    @include sView {
+      top: -133px;
+    }
+  }
 }

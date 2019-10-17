@@ -1,6 +1,4 @@
 .how-working {
-    //background: #131313;
-    //padding: 150px 0 400px;
     padding-top: 0;
     margin-top: -162px;
     @include lView {
@@ -26,8 +24,6 @@
 
 .how-working__content {
     display: flex;
-    
-    //flex-direction: row;
 }
 
 .how-working__nav-slider {

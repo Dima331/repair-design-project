@@ -1,25 +1,32 @@
 .repair-list {
-    display: flex;
+  display: flex;
+  @include mlView {
+    flex-direction: column;
+  }
+  .repair-list__item {
+    flex: 1;
+    margin-right: 30px;
     @include mlView {
-        flex-direction: column;
+      margin-right: 0;
     }
-    .repair-list__item {
-        flex: 1;
-        margin-right: 30px;
-        @include mlView {
-            margin-right: 0;
-        }
-        @include smView {
-            margin-bottom: 181px;
-        }
-        &:last-child {
-            margin-right: 0;
-            @include smView {
-                margin-bottom: 145px;
-            }
-        }
+    @include smView {
+      margin-bottom: 211px;
     }
-    .repair__img {
-        width: 100%;
+    @include sView {
+      margin-bottom: 181px;
     }
+
+    &:last-child {
+      margin-right: 0;
+      @include smView {
+        margin-bottom: 185px;
+      }
+      @include sView {
+        margin-bottom: 145px;
+      }
+    }
+  }
+  .repair__img {
+    width: 100%;
+  }
 }

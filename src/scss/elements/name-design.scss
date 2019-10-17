@@ -1,32 +1,32 @@
 .name-design {
-    display: flex;
-    .name-design__item {
-        margin-right: 60px;
-        &:last-child {
-            margin-right: 0;
-        }
+  display: flex;
+  .name-design__item {
+    margin-right: 60px;
+    &:last-child {
+      margin-right: 0;
     }
+  }
+  .name-design__btn {
+    font-family: "yesevaone";
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+    transition: 0.3s;
+    &:hover {
+      color: #e3b873;
+      border-bottom: 1px solid #e3b873;
+    }
+    &:active {
+      color: #d68400;
+      border-bottom: 1px solid #d68400;
+    }
+  }
+  .active {
     .name-design__btn {
-        font-family: "yesevaone";
-        font-size: 14px;
-        line-height: 19px;
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.3);
-        padding-bottom: 5px;
-        transition: 0.3s;
-        &:hover {
-            color: #E3B873;
-            border-bottom: 1px solid #E3B873;
-        }
-        &:active{
-                color: #d68400;
-                border-bottom: 1px solid #d68400;
-        }
+      color: #e3b873;
+      border-bottom: 1px solid #e3b873;
     }
-    .active {
-        .name-design__btn {
-            color: #E3B873;
-            border-bottom: 1px solid #E3B873;
-        }
-    }
+  }
 }

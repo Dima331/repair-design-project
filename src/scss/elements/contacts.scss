@@ -1,75 +1,71 @@
 .contacts {
-    background: #181818;
-    background-image:  url("../img/icons/lines.svg");
-    width: 883px;
-    margin: 0 auto;
-    padding: 36px 180px;
-    position: absolute;
-    top: -496px;
-    left: 51%;
+  background: #181818;
+  background-image: url("../img/icons/lines.svg");
+  width: 883px;
+  margin: 0 auto;
+  padding: 36px 180px;
+  position: absolute;
+  top: -496px;
+  left: 51%;
 
-    transform: translate(-50%);
-    @include lView {
-        transform: translate(0);
-        position: relative;
-        top: auto;
-        left: auto;
-        margin-bottom: 30px;
-        width: 100%;
-        padding: 36px 42px;
-    }
-    @include mlView {
-        background-image: none;
-        background-color: #131313;
-    }
-    @include smView {
-        padding: 0;
-    }
-    
+  transform: translate(-50%);
+  @include lView {
+    transform: translate(0);
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 36px 42px;
+  }
+  @include mlView {
+    background-image: none;
+    background-color: #131313;
+  }
+  @include smView {
+    padding: 0;
+  }
 }
 
 .contacts__title.section-title {
-    color: #FFFFFF;
-    margin-bottom: 50px;
-    @include smView {
-        font-size: 20px;
-        margin-bottom: 56px;
-    }
+  color: #ffffff;
+  margin-bottom: 50px;
+  @include smView {
+    font-size: 20px;
+    margin-bottom: 56px;
+  }
 }
 
 .contacts__form {
-    .form__col {
-        margin-bottom: 47px;
-        @include mView {
-            flex-direction: column;
-            margin-bottom: 26px;
-        }
+  .form__col {
+    margin-bottom: 47px;
+    @include mView {
+      flex-direction: column;
+      margin-bottom: 26px;
     }
-    .form-contacts__btn {
-        padding: 19px 77px;
+  }
+  .form-contacts__btn {
+    padding: 19px 77px;
+  }
+  .form-contacts__input {
+    flex: 1;
+    margin-right: 55px;
+    @include mView {
+      margin-right: 0;
+      margin-bottom: 40px;
+      margin-bottom: 63px;
     }
-    .form-contacts__input {
-        flex: 1;
-        margin-right: 55px;
-        @include mView {
-            margin-right: 0;
-            margin-bottom: 40px;
-            margin-bottom: 63px;
-        } 
-        &:last-child {
-            margin-right: 0;
-            @include mView {
-                margin-bottom: 0;
-            }
-        }
-        &:nth-child(2) {
-            margin-bottom: 0;
-            @include mView {
-                margin-bottom: 35px;
-            }
-        }
-       
+    &:last-child {
+      margin-right: 0;
+      @include mView {
+        margin-bottom: 0;
+      }
     }
+    &:nth-child(2) {
+      margin-bottom: 0;
+      @include mView {
+        margin-bottom: 35px;
+      }
+    }
+  }
 }
-
-

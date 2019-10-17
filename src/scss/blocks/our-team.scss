@@ -1,54 +1,53 @@
-.our-team{
-@include lView {
+.our-team {
+  @include lView {
     background-color: #131313;
-    
-}
+  }
 }
 
 .our-team__container {
-    width: 1025px; 
-    @include lView{
-        width: 90%;
-     }
+  width: 1025px;
+  @include lView {
+    width: 90%;
+  }
 }
-.our-team__container-text{
-    margin-top: 66px;
-    @include lView {
-        display: none;
-    }
+.our-team__container-text {
+  margin-top: 66px;
+  @include lView {
+    display: none;
+  }
 }
-.our-team{
-    padding-top: 67px;
-    @include lView {
-        padding-top: 30px;
-    }
+.our-team {
+  padding-top: 67px;
+  @include lView {
+    padding-top: 30px;
+  }
 }
 .our-team__dec {
-    font-family: "futurabookc";
-    font-size: 20px;
-    line-height: 27px;
-    text-align: center;
-    color: #fff;
-    width: 43%;
-    margin: 0 auto;
-    margin-bottom: 81px;
-    @include mlView {
-        width: 100%;
-        font-size: 14px;
-        line-height: 158.48%;
-        padding: 0 34px;
-        margin-bottom: 70px;
-    }
+  font-family: "futurabookc";
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  width: 43%;
+  margin: 0 auto;
+  margin-bottom: 81px;
+  @include mlView {
+    width: 100%;
+    font-size: 14px;
+    line-height: 158.48%;
+    padding: 0 34px;
+    margin-bottom: 70px;
+  }
 }
 
 .our-team__text {
-    text-align: center;
-    width: 52%;
-    margin: 0 auto;
-    margin-bottom: 9px;
+  text-align: center;
+  width: 52%;
+  margin: 0 auto;
+  margin-bottom: 9px;
 }
-.our-team__text.line-text{
-    &:before{
-        top: -11px;
-    }
+.our-team__text.line-text {
+  &:before {
+    top: -11px;
+  }
 }
