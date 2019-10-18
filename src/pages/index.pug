@@ -7,7 +7,7 @@ html(lang='en')
     link(rel='stylesheet', href='css/main.min.css')
     title Aviana
   body.body
-    .wrapper
+    .wrapper#wrapper
       include elements/header.pug
       main.main
         include sections/hero.pug    
@@ -24,6 +24,9 @@ html(lang='en')
           include sections/our-clients.pug    
           include sections/contacts.pug  
       include elements/footer.pug
+      .buttons-fixet#btns
+          button.buttons-fixet__chance#btn mobile
+          a(href="../../index.html").buttons-fixet__back back
     script(src="js/main.min.js")
 
 
